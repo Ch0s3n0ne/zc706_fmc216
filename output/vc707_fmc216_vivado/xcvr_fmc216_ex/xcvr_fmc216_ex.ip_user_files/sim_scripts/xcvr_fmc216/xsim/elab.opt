@@ -1,0 +1,1 @@
+--incr --debug typical --relax --mt auto -L xil_defaultlib -L secureip --snapshot xcvr_fmc216 xil_defaultlib.xcvr_fmc216 -log elaborate.log

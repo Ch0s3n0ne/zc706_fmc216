@@ -1,0 +1,68 @@
+#-------------------------------------------------------------------------------
+## MAC Engine
+#-------------------------------------------------------------------------------
+# Master reset input
+NET "CPU_RESET_0"       LOC = "AV40" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+# Master clock input
+NET "SYSCLK_P_0"        LOC = "E19" |IOSTANDARD="LVDS";
+NET "SYSCLK_N_0"        LOC = "E18" |IOSTANDARD="LVDS";
+# Ethernet control interface
+NET "PHY_RESET_L_0"     LOC = "AJ33" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "PHY_MDC_0"         LOC = "AH31" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "PHY_MDIO_0"        LOC = "AK33" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+# SGMII interface to gigabit phy
+NET "SGMII_refclk_p_0" LOC = "AH8";
+NET "SGMII_refclk_n_0" LOC = "AH7";
+NET "SGMII_refclk_p_0" TNM_NET = "gtrefclk";
+TIMESPEC "ts_gtrefclk" = PERIOD "gtrefclk" 8 ns HIGH 50 %;
+# SGMII interface to gigabit phy
+NET "SGMII_TX_P_0"	LOC = "AN2" ;
+NET "SGMII_TX_N_0"	LOC = "AN1" ; #| DIFF_TERM=TRUE;
+NET "SGMII_RX_P_0"	LOC = "AM8" ; #| DIFF_TERM=TRUE;
+NET "SGMII_RX_N_0"	LOC = "AM7" ; #| DIFF_TERM=TRUE;
+#-----------------------------------------------------------
+# Fabric Rx Elastic Buffer Timing Constraints:             -
+#-----------------------------------------------------------
+# Clock period for the recovered Rx clock
+NET "*/core_wrapper/transceiver_inst/RXRECCLK" TNM_NET = "rxrecclk";
+TIMESPEC "ts_rxrecclk" = PERIOD "rxrecclk" 8 ns;
+# Identify clock domain crossing registers
+INST "*/core_wrapper/transceiver_inst/rx_elastic_buffer_inst/wr_addr_gray*" TNM = "wr_graycode";
+INST "*/core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_addr_gray*" TNM = "rd_graycode";
+# Control Gray Code delay and skew across clock boundary
+TIMESPEC "ts_rx_skew_control1" = FROM "wr_graycode" TO "FFS" 14 ns DATAPATHONLY;
+TIMESPEC "ts_rx_skew_control2" = FROM "rd_graycode" TO "FFS" 14 ns DATAPATHONLY;
+# Constrain between Distributed Memory (output data) and the 1st set of flip-flops
+INST "*/core_wrapper/transceiver_inst/rx_elastic_buffer_inst/rd_data*"  TNM = "fifo_read";
+TIMESPEC "ts_ram_read_false_path" = FROM "RAMS" TO "fifo_read"  6 ns DATAPATHONLY;
+
+
+
+NET "GPIO_LED_0<0>"      LOC = "AM39" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "GPIO_LED_0<1>"      LOC = "AN39" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "GPIO_LED_0<2>"      LOC = "AR37" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "GPIO_LED_0<3>"      LOC = "AT37" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<4>"      LOC = "AR35" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<5>"      LOC = "AP41" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<6>"      LOC = "AP42" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<7>"      LOC = "AU39" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+
+NET "SYSCLK_P_0" TNM_NET = SYSCLK_P_0;
+TIMESPEC TS_SYSCLK_P_0 = PERIOD "SYSCLK_P_0" 200 MHz HIGH 50%;
+NET "SYSCLK_N_0" TNM_NET = SYSCLK_N_0;
+TIMESPEC TS_SYSCLK_N_0 = PERIOD "SYSCLK_N_0" 200 MHz HIGH 50%;
+
+NET "*/mac_engine_inst/i_rst_gen/reset2_o" TNM_NET = reset2_o;
+NET "*/mac_engine_inst/sw_rst" TNM_NET = sw_rst;
+NET "*/mac_engine_inst/reset2_o_int" TNM_NET = reset2_o_int;
+NET "*/mac_engine_inst/sw_rst_int" TNM_NET = sw_rst_int;
+
+
+TIMESPEC TS_IGNORE1 = FROM "reset2_o" TO  "reset2_o_int" TIG;
+TIMESPEC TS_IGNORE2 = FROM "sw_rst" TO "sw_rst_int" TIG;
+
+NET "*/clk125" TNM_NET=TNM_clk125;
+NET "*/clk200" TNM_NET=TNM_clk200;
+
+TIMESPEC TS_IGNORE3 = FROM "TNM_clk125" TO "TNM_clk200" TIG;
+TIMESPEC TS_IGNORE4 = FROM "TNM_clk200" TO "TNM_clk125" TIG;

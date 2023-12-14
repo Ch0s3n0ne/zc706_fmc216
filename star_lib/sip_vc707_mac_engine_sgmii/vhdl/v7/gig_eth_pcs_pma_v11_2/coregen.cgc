@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spirit:design xmlns:spirit="http://www.spiritconsortium.org/XMLSchema/SPIRIT/1685-2009" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xilinx="http://www.xilinx.com" >
+   <spirit:vendor>xilinx.com</spirit:vendor>
+   <spirit:library>CoreGen</spirit:library>
+   <spirit:name>coregen</spirit:name>
+   <spirit:version>1.0</spirit:version>
+   <spirit:componentInstances>
+      <spirit:componentInstance>
+         <spirit:instanceName>gig_eth_pcs_pma_v11_2</spirit:instanceName>
+         <spirit:componentRef spirit:vendor="xilinx.com" spirit:library="ip" spirit:name="gig_eth_pcs_pma" spirit:version="11.2" />
+         <spirit:configurableElementValues>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.COMPONENT_NAME">gig_eth_pcs_pma_v11_2</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.STANDARD">SGMII</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.PHYSICAL_INTERFACE">Transceiver</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.MANAGEMENT_INTERFACE">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.AUTO_NEGOTIATION">true</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.TRANSCEIVER_TILE">A</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.SGMII_MODE">10_100_1000</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.SGMII_PHY_MODE">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="PARAM_VALUE.TIMING_SIM">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_ELABORATION_TRANSIENT_DIR">C:/Users/4DSP/Desktop/Ethernet/tmp/_cg/_dbg/</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_COMPONENT_NAME">gig_eth_pcs_pma_v11_2</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_FAMILY">virtex7</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_IS_SGMII">true</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_USE_TRANSCEIVER">true</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_USE_TBI">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_USE_LVDS">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_HAS_AN">true</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_HAS_MDIO">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_SGMII_PHY_MODE">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_DYNAMIC_SWITCHING">false</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_TRANSCEIVER_MODE">A</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_SGMII_FABRIC_BUFFER">true</spirit:configurableElementValue>
+            <spirit:configurableElementValue spirit:referenceId="MODELPARAM_VALUE.C_TIMING">false</spirit:configurableElementValue>
+         </spirit:configurableElementValues>
+         <spirit:vendorExtensions>
+            <xilinx:instanceProperties>
+               <xilinx:projectOptions>
+                  <xilinx:projectName>coregen</xilinx:projectName>
+                  <xilinx:outputDirectory>./</xilinx:outputDirectory>
+                  <xilinx:workingDirectory>./tmp/</xilinx:workingDirectory>
+                  <xilinx:subWorkingDirectory>./tmp/_cg/</xilinx:subWorkingDirectory>
+               </xilinx:projectOptions>
+               <xilinx:part>
+                  <xilinx:device>xc7vx485t</xilinx:device>
+                  <xilinx:deviceFamily>virtex7</xilinx:deviceFamily>
+                  <xilinx:package>ffg1761</xilinx:package>
+                  <xilinx:speedGrade>-1</xilinx:speedGrade>
+               </xilinx:part>
+               <xilinx:flowOptions>
+                  <xilinx:busFormat>BusFormatAngleBracketNotRipped</xilinx:busFormat>
+                  <xilinx:designEntry>VHDL</xilinx:designEntry>
+                  <xilinx:asySymbol>true</xilinx:asySymbol>
+                  <xilinx:flowVendor>Other</xilinx:flowVendor>
+                  <xilinx:addPads>false</xilinx:addPads>
+                  <xilinx:removeRPMs>false</xilinx:removeRPMs>
+                  <xilinx:createNDF>false</xilinx:createNDF>
+                  <xilinx:implementationFileType>Ngc</xilinx:implementationFileType>
+                  <xilinx:formalVerification>false</xilinx:formalVerification>
+               </xilinx:flowOptions>
+               <xilinx:simulationOptions>
+                  <xilinx:simulationModel>Behavioral</xilinx:simulationModel>
+                  <xilinx:simulationLanguage>VHDL</xilinx:simulationLanguage>
+                  <xilinx:foundationSym>false</xilinx:foundationSym>
+               </xilinx:simulationOptions>
+               <xilinx:packageInfo>
+                  <xilinx:sourceCoreCreationDate>2011-03-30+08:06</xilinx:sourceCoreCreationDate>
+               </xilinx:packageInfo>
+            </xilinx:instanceProperties>
+            <xilinx:generationHistory>
+               <xilinx:fileSet>
+                  <xilinx:name>apply_current_project_options_generator</xilinx:name>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>customization_generator</xilinx:name>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>model_parameter_resolution_generator</xilinx:name>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>ip_xco_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.xco</xilinx:name>
+                     <xilinx:userFileType>xco</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:09 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x46E7A838</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>associated_files_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/doc/gig_eth_pcs_pma_ds264.pdf</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>pdf</xilinx:userFileType>
+                     <xilinx:timeStamp>Sat Jan 07 14:53:47 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xE3490BF8</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/doc/gig_eth_pcs_pma_ug155.pdf</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>pdf</xilinx:userFileType>
+                     <xilinx:timeStamp>Sat Jan 07 14:53:47 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xFF070F2F</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/doc/gig_eth_pcs_pma_v11_2_vinfo.html</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Sat Jan 07 14:53:47 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xABC37513</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/gig_eth_pcs_pma_readme.txt</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>txt</xilinx:userFileType>
+                     <xilinx:timeStamp>Sat Jan 07 14:53:47 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xFF3B7B8A</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>ejava_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/gig_eth_pcs_pma_v11_2_block.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:16 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x90211637</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/gig_eth_pcs_pma_v11_2_example_design.ucf</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>ucf</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:17 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xE3A8A8D5</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/gig_eth_pcs_pma_v11_2_example_design.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:17 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x0E197D02</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/gig_eth_pcs_pma_v11_2_example_design.xdc</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>xdc</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:18 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xBE5F6A9E</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/reset_sync.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:11 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x4D869503</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/sgmii_adapt/clk_gen.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:15 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xF9CC7F55</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/sgmii_adapt/johnson_cntr.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:15 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xA9BD5943</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/sgmii_adapt/rx_rate_adapt.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:15 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x19A47C15</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/sgmii_adapt/sgmii_adapt.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:15 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x634FDD7A</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/sgmii_adapt/tx_rate_adapt.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:15 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xD201B29D</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/sync_block.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:11 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xF1BEBF12</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/transceiver/gtwizard.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:16 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xC46DAAC2</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/transceiver/gtwizard.xco</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>xco</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:16 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xE1B3DD68</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/transceiver/gtwizard_gt.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:16 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xD3EB18BC</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/transceiver/rx_elastic_buffer.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:14 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x37086D7A</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/example_design/transceiver/transceiver.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:19 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x8B28AFB6</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/example_design_xst.xcf</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:18 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x3A19BE12</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/implement.bat</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:18 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x852B86EA</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/implement.sh</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:19 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x81362DA9</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/planAhead_rdn.bat</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:18 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x8F78453F</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/planAhead_rdn.sh</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:19 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xA1889A85</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/planAhead_rdn.tcl</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>tcl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:19 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x6BE2B3C7</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/xst.prj</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:13 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x6E9B38F1</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/implement/xst.scr</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:13 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x27F956D9</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/simulation/demo_tb.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:12 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x282376F3</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/simulation/functional/simulate_mti.do</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:13 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x9C1B18C4</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/simulation/functional/simulate_ncsim.sh</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:13 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x0507F543</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/simulation/functional/wave_mti.do</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:13 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x881F01DF</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/simulation/functional/wave_ncsim.sv</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>unknown</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:13 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x2E5D626C</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2/simulation/stimulus_tb.vhd</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:57:11 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x9DCEBA15</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>ngc_netlist_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.ngc</xilinx:name>
+                     <xilinx:userFileType>ngc</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:14 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xF3068772</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>obfuscate_netlist_generator</xilinx:name>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>padded_implementation_netlist_generator</xilinx:name>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>instantiation_template_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.vho</xilinx:name>
+                     <xilinx:userFileType>vho</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:16 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x0F9A350A</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>structural_simulation_model_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.vhd</xilinx:name>
+                     <xilinx:userFileType>vhdl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:19 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xA6B2092D</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>asy_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.asy</xilinx:name>
+                     <xilinx:userFileType>asy</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:20 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x0F0744AE</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>xmdf_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2_xmdf.tcl</xilinx:name>
+                     <xilinx:userFileType>tclXmdf</xilinx:userFileType>
+                     <xilinx:userFileType>tcl</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:20 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x34BAC450</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>ise_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.gise</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>gise</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:26 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0x261C91F7</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2.xise</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>xise</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:26 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xEC201A97</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>deliver_readme_generator</xilinx:name>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>flist_generator</xilinx:name>
+                  <xilinx:file>
+                     <xilinx:name>./gig_eth_pcs_pma_v11_2_flist.txt</xilinx:name>
+                     <xilinx:userFileType>ignore</xilinx:userFileType>
+                     <xilinx:userFileType>txtFlist</xilinx:userFileType>
+                     <xilinx:userFileType>txt</xilinx:userFileType>
+                     <xilinx:timeStamp>Tue Jul 10 10:58:26 GMT 2012</xilinx:timeStamp>
+                     <xilinx:checkSum>0xD31DB353</xilinx:checkSum>
+                     <xilinx:generationId>generationid_2460111721</xilinx:generationId>
+                  </xilinx:file>
+               </xilinx:fileSet>
+               <xilinx:fileSet>
+                  <xilinx:name>view_readme_generator</xilinx:name>
+               </xilinx:fileSet>
+            </xilinx:generationHistory>
+         </spirit:vendorExtensions>
+      </spirit:componentInstance>
+   </spirit:componentInstances>
+   <spirit:vendorExtensions>
+      <xilinx:instanceProperties>
+         <xilinx:projectOptions>
+            <xilinx:projectName>coregen</xilinx:projectName>
+            <xilinx:outputDirectory>./</xilinx:outputDirectory>
+            <xilinx:workingDirectory>./tmp/</xilinx:workingDirectory>
+            <xilinx:subWorkingDirectory>./tmp/_cg/</xilinx:subWorkingDirectory>
+         </xilinx:projectOptions>
+         <xilinx:part>
+            <xilinx:device>xc7vx485t</xilinx:device>
+            <xilinx:deviceFamily>virtex7</xilinx:deviceFamily>
+            <xilinx:package>ffg1761</xilinx:package>
+            <xilinx:speedGrade>-1</xilinx:speedGrade>
+         </xilinx:part>
+         <xilinx:flowOptions>
+            <xilinx:busFormat>BusFormatAngleBracketNotRipped</xilinx:busFormat>
+            <xilinx:designEntry>VHDL</xilinx:designEntry>
+            <xilinx:asySymbol>true</xilinx:asySymbol>
+            <xilinx:flowVendor>Other</xilinx:flowVendor>
+            <xilinx:addPads>false</xilinx:addPads>
+            <xilinx:removeRPMs>false</xilinx:removeRPMs>
+            <xilinx:createNDF>false</xilinx:createNDF>
+            <xilinx:implementationFileType>Ngc</xilinx:implementationFileType>
+            <xilinx:formalVerification>false</xilinx:formalVerification>
+         </xilinx:flowOptions>
+         <xilinx:simulationOptions>
+            <xilinx:simulationModel>Behavioral</xilinx:simulationModel>
+            <xilinx:simulationLanguage>VHDL</xilinx:simulationLanguage>
+            <xilinx:foundationSym>false</xilinx:foundationSym>
+         </xilinx:simulationOptions>
+      </xilinx:instanceProperties>
+   </spirit:vendorExtensions>
+</spirit:design>
+

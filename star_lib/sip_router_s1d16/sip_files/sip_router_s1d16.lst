@@ -1,0 +1,4 @@
+sip_router_s1d16.vhd
+../vhdl/router_s1d16_stellar_cmd.vhd
+../vhdl/router_s1d16_regs.vhd
+../vhdl/router_s1d16.vhd

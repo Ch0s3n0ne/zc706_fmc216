@@ -1,0 +1,158 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jul 18 14:25:15 2023
+# Process ID: 1888
+# Current directory: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado
+# Command line: vivado.exe -mode batch -source C:\4dsp_test\527_vc707_fmc216\output\vc707_fmc216_vivado\vc707_fmc216_vivado.xvtekel
+# Log file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado.log
+# Journal file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado\vivado.jou
+# Running On: DESKTOP-A0RH3KH, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 6, Host memory: 34266 MB
+#-----------------------------------------------------------
+source {C:\4dsp_test\527_vc707_fmc216\output\vc707_fmc216_vivado\vc707_fmc216_vivado.xvtekel}
+# set projDir [file dirname [info script]]
+# set srcDir $projDir/Src
+# set folderName vivado
+# set projName vc707_fmc216_vivado
+# set device XC7VX485T-2FFG1761
+# if {[file exists $projDir/$folderName]} {
+# # if the project directory exists, delete it and create a new clean one
+#   file delete -force $projDir/$folderName
+# }
+# create_project $projName $projDir/$folderName -part $device
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1245.453 ; gain = 9.047
+# set_property design_mode RTL [get_filesets sources_1]
+# set dsn_files [ list  								 \
+#  Src/vc707_fmc216_vivado.vhd \
+#  Src/sip_cid_ex/sip_cid_ex.vhd \
+#  Src/sip_cid_ex/cid.vhd \
+#  Src/sip_cid_ex/cid_package.vhd \
+#  Src/sip_cid_ex/cid_stellar_cmd.vhd \
+#  Src/sip_cid_ex/cid_regs.vhd \
+#  Src/sip_cid_ex/pulse2pulse.vhd \
+#  Src/sip_i2c_master/sip_i2c_master.vhd \
+#  Src/sip_i2c_master/i2c_master.vhd \
+#  Src/sip_i2c_master/i2c_master_top.vhd \
+#  Src/sip_i2c_master/i2c_master_byte_ctrl.vhd \
+#  Src/sip_i2c_master/i2c_master_bit_ctrl.vhd \
+#  Src/sip_i2c_master/i2c_master_stellar_cmd.vhd \
+#  Src/sip_cmd12_mux/sip_cmd12_mux.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/sip_vc707_mac_engine_sgmii.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/brd_packet_engine.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/brd_clocks.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/eth_mdio.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/ge_mac_stream.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/gmii_eth_rx_stream.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/crc32.v \
+#  Src/sip_vc707_mac_engine_sgmii/eth_filter.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/eth_rx_crc.v \
+#  Src/sip_vc707_mac_engine_sgmii/eth_rx_stream_buf.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/eth_tx_crc.v \
+#  Src/sip_vc707_mac_engine_sgmii/mac_engine.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/gig_eth_gt_common.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/gmii_eth_tx_stream.vhd \
+#  Src/sip_vc707_mac_engine_sgmii/rst_gen.vhd \
+#  Src/sip_fmc216_8lane/sip_fmc216_8lane.vhd \
+#  Src/sip_fmc216_8lane/xcvr_wrapper.vhd \
+#  Src/sip_fmc216_8lane/types.vhd \
+#  Src/sip_fmc216_8lane/sip_freq_cnt16.vhd \
+#  Src/sip_fmc216_8lane/fmc216_stellar_cmd.vhd \
+#  Src/sip_fmc216_8lane/fmc216_ctrl.vhd \
+#  Src/sip_fmc216_8lane/fmc216.vhd \
+#  Src/sip_fmc216_8lane/wfm.vhd \
+#  Src/sip_fmc216_8lane/wfm_ctrl.vhd \
+#  Src/sip_fmc216_8lane/jesd204b_vc707_8lane_dac.vhd \
+#  Src/sip_fmc216_8lane/dac38j84_jesd.vhd \
+#  Src/sip_fmc216_8lane/dac_wrapper.vhd \
+#  Src/sip_fmc216_8lane/xcvr_fmc216.xcix \
+#  Src/sip_fmc216_8lane/wfm_output_fifo.xcix \
+#  Src/sip_fmc216_8lane/dac3283_wfm_dpram.xcix \
+#  Src/sip_fmc216_8lane/dac3283_wfm_output_fifo.xcix \
+#  Src/sip_router_s1d16/sip_router_s1d16.vhd \
+#  Src/sip_router_s1d16/router_s1d16_stellar_cmd.vhd \
+#  Src/sip_router_s1d16/router_s1d16_regs.vhd \
+#  Src/sip_router_s1d16/router_s1d16.vhd \
+# ]
+# add_files -fileset [get_filesets sources_1] -norecurse $dsn_files
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+# set xdcSources [glob $srcDir/*.xdc]
+# add_files -fileset [get_filesets constrs_1] -norecurse $xdcSources
+# set_property constrs_type XDC [current_fileset -constrset]
+# set_property top vc707_fmc216_vivado [current_fileset]
+# set_property top_arch top_level [current_fileset]
+# set_property top_file vc707_fmc216_vivado.vhd [current_fileset]
+# set file "Src/*.xdc"
+# set file_obj [get_files "*$file"]
+# set_property "file_type" "XDC" $file_obj
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216_ooc.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo/wfm_output_fifo_clocks.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo/wfm_output_fifo.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo_ooc.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_dpram/dac3283_wfm_dpram_ooc.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_dpram/dac3283_wfm_dpram.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo_clocks.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xci
+CRITICAL WARNING: [filemgmt 20-1702] Unable to set property on the file: c:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo_ooc.xdc
+File is managed as part of sub-design (IP, Block Design, DSP Design, etc.) file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xci
+# set_property "used_in_synthesis" "false" $file_obj
+# set_property STEPS.SYNTH_DESIGN.ARGS.FLATTEN_HIERARCHY none [get_runs synth_1]
+# source Src/sip_vc707_mac_engine_sgmii/sip_vc707_mac_engine_sgmii_v7_vivado.vposttcl
+## set path [info script]
+## puts "Script is invoked from the path: $path "
+Script is invoked from the path: Src/sip_vc707_mac_engine_sgmii/sip_vc707_mac_engine_sgmii_v7_vivado.vposttcl 
+## import_files  ./Src/sip_vc707_mac_engine_sgmii/afifo.xci
+WARNING: [IP_Flow 19-6920] IP catalog definition and instance xml file are missing for IP Instance 'afifo'. Port and Interface information is missing for the IP, please run report IP status. 
+WARNING: [IP_Flow 19-2162] IP 'afifo' is locked:
+* IP definition 'FIFO Generator (12.0)' for IP 'afifo' (customized with software release 2014.4.1) has a newer major version in the IP Catalog.
+## import_files  ./Src/sip_vc707_mac_engine_sgmii/fifo_64_to_8.xci
+WARNING: [IP_Flow 19-6920] IP catalog definition and instance xml file are missing for IP Instance 'fifo_64_to_8'. Port and Interface information is missing for the IP, please run report IP status. 
+WARNING: [IP_Flow 19-2162] IP 'fifo_64_to_8' is locked:
+* IP definition 'FIFO Generator (12.0)' for IP 'fifo_64_to_8' (customized with software release 2014.4.1) has a newer major version in the IP Catalog.
+## import_files  ./Src/sip_vc707_mac_engine_sgmii/pll0.xci
+WARNING: [IP_Flow 19-6920] IP catalog definition and instance xml file are missing for IP Instance 'pll0'. Port and Interface information is missing for the IP, please run report IP status. 
+WARNING: [IP_Flow 19-2162] IP 'pll0' is locked:
+* IP definition 'Clocking Wizard (5.1)' for IP 'pll0' (customized with software release 2014.4.1) has a newer major version in the IP Catalog.
+## import_files  ./Src/sip_vc707_mac_engine_sgmii/gig_ethernet_pcs_pma_1.xci
+WARNING: [IP_Flow 19-6920] IP catalog definition and instance xml file are missing for IP Instance 'gig_ethernet_pcs_pma_1'. Port and Interface information is missing for the IP, please run report IP status. 
+WARNING: [IP_Flow 19-2162] IP 'gig_ethernet_pcs_pma_1' is locked:
+* IP definition '1G/2.5G Ethernet PCS/PMA or SGMII (14.3)' for IP 'gig_ethernet_pcs_pma_1' (customized with software release 2014.4.1) has a newer major version in the IP Catalog.
+## upgrade_ip [get_ips afifo] -quiet
+## upgrade_ip [get_ips fifo_64_to_8] -quiet
+## upgrade_ip [get_ips pll0] -quiet
+## upgrade_ip [get_ips gig_ethernet_pcs_pma_1] -quiet
+## set_property target_language VHDL [current_project]
+## set_property target_constrs_file ./Src/$projName.xdc [current_fileset -constrset]
+## generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/afifo/afifo.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'afifo'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'afifo'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'afifo'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'afifo'...
+## generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/fifo_64_to_8/fifo_64_to_8.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'fifo_64_to_8'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'fifo_64_to_8'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'fifo_64_to_8'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'fifo_64_to_8'...
+## generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'gig_ethernet_pcs_pma_1'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'gig_ethernet_pcs_pma_1'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'gig_ethernet_pcs_pma_1'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'gig_ethernet_pcs_pma_1'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'gig_ethernet_pcs_pma_1'...
+## generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/pll0/pll0.xci]
+INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'pll0'...
+INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'pll0'...
+INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'pll0'...
+INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'pll0'...
+INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'pll0'...
+INFO: [Common 17-206] Exiting Vivado at Tue Jul 18 14:25:45 2023...

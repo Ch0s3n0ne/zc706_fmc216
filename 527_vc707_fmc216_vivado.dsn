@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This file was written by StellarIP Version 1.3.13.0-->
+<TinyCADSheets>
+	<TinyCAD>
+		<NAME>Sheet 1</NAME>
+		<DETAILS>
+			<Size width='1485' height='1050'/>
+			<GUIDES horiz='7' vert='5'/>
+			<TITLE>vc707_fmc216_vivado</TITLE>
+			<AUTHOR>Luis Munoz</AUTHOR>
+			<DESC>VC707 with FMC216 card</DESC>
+			<NOTE>16 channel D/A</NOTE>
+			<TYPE>Reference Firmware</TYPE>
+			<REVISION>1.2</REVISION>
+			<DOCNUMBER>527</DOCNUMBER>
+			<ORGANISATION>4DSP</ORGANISATION>
+			<SHEETS>1 of 1</SHEETS>
+			<SHOWS>1</SHOWS>
+			<DATE>May. 17, 2016</DATE>
+			<TRGTBOARD>VC707</TRGTBOARD>
+			<TRGTFPGA>A</TRGTFPGA>
+			<TRGTFPGATYPE>XC7VX485T-2FFG1761</TRGTFPGATYPE>
+			<TRGTMEMSTART>0x0000000</TRGTMEMSTART>
+			<TRGTMEMSTOP>0x0001FFF</TRGTMEMSTOP>
+			<DsnRev>StellarIP Version 1.1.3.0</DsnRev>
+			<VIVADOFLOWSUPPORTED>1</VIVADOFLOWSUPPORTED>
+			<ISEFLOWSUPPORTED>0</ISEFLOWSUPPORTED>
+			<SIPBUSSUPPORTED>1</SIPBUSSUPPORTED>
+			<AXIBUSSUPPORTED>0</AXIBUSSUPPORTED>
+			<WRITEACKSUPPORTED>1</WRITEACKSUPPORTED>
+			<GRID spacing='100.00000' snap='1'/>
+		</DETAILS>
+		<FONT id='1'>
+			<HEIGHT>-10</HEIGHT>
+			<WIDTH>0</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='3'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>400</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<STYLE id='2'>
+			<STYLE>0</STYLE>
+			<COLOR>000000</COLOR>
+			<THICKNESS>1</THICKNESS>
+		</STYLE>
+		<FILL id='0'>
+			<INDEX>-1</INDEX>
+			<COLOR>000000</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
+			<NAME type='0'>sip_i2c_master</NAME>
+			<REF type='0'>sip_i2c_master</REF>
+			<DESCRIPTION>sip_i2c_master</DESCRIPTION>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>Stellar IP Component</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>ID</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Path</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Name</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Nbr Registers</NAME>
+				<DEFAULT>65536</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$STAR_TYPE</NAME>
+				<DEFAULT>14</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Unit</NAME>
+				<DEFAULT>?</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Input Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Output Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Storage Size Unit</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$DATA_CHANNELS</NAME>
+				<DEFAULT>|</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='0.00000,0.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='-36.00000,-20.00000' b='-6.00000,0.00000' style='2' fill='0'/>
+				<PIN pos='-42.00000,-16.00000' which='0' elec='0' direction='3' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0' type='clkin' whdirection='in'>clk</PIN>
+				<PIN pos='-42.00000,-12.00000' which='0' elec='0' direction='3' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0' type='rst_in' whdirection='in'>rst</PIN>
+				<PIN pos='-42.00000,-8.00000' which='0' elec='0' direction='3' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0' type='cmdclk_in' whdirection='in'>cmdclk_in</PIN>
+				<PIN pos='-42.00000,-4.00000' which='0' elec='0' direction='3' part='0' number='4' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd_in</PIN>
+				<PIN pos='0.00000,-16.00000' which='0' elec='1' direction='2' part='0' number='5' show='1' length='30' number_pos='0' centre_name='0' type='cmd_out' whdirection='out'>cmd_out</PIN>
+				<PIN pos='-36.00000,0.00000' which='0' elec='3' direction='2' part='0' number='6' show='0' length='0' number_pos='0' centre_name='0' type='ext_i2c' whdirection='ext'>ext_i2c</PIN>
+				<PIN pos='-36.00000,0.00000' which='0' elec='4' direction='2' part='0' number='7' show='0' length='0' number_pos='0' centre_name='0' type='generic_def' whdirection='gen'>generic</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='2'>
+			<NAME type='0'>sip_cmd12_mux</NAME>
+			<REF type='0'>sip_cmd12_mux</REF>
+			<DESCRIPTION>sip_cmd12_mux</DESCRIPTION>
+			<FIELD>
+				<NAME>$$SPICE_PROLOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$SPICE_EPILOG_PRIORITY</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>Stellar IP Component</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>ID</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Path</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Name</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Nbr Registers</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='42.00000,56.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='6.00000,0.00000' b='36.00000,56.00000' style='2' fill='0'/>
+				<PIN pos='0.00000,4.00000' which='0' elec='0' direction='3' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0' type='cmdclk_in' whdirection='in'>cmdclk_in</PIN>
+				<PIN pos='0.00000,8.00000' which='0' elec='0' direction='3' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd0_in</PIN>
+				<PIN pos='0.00000,12.00000' which='0' elec='0' direction='3' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd1_in</PIN>
+				<PIN pos='0.00000,16.00000' which='0' elec='0' direction='3' part='0' number='4' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd2_in</PIN>
+				<PIN pos='0.00000,20.00000' which='0' elec='0' direction='3' part='0' number='5' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd3_in</PIN>
+				<PIN pos='0.00000,24.00000' which='0' elec='0' direction='3' part='0' number='6' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd4_in</PIN>
+				<PIN pos='0.00000,28.00000' which='0' elec='0' direction='3' part='0' number='7' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd5_in</PIN>
+				<PIN pos='0.00000,32.00000' which='0' elec='0' direction='3' part='0' number='8' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd6_in</PIN>
+				<PIN pos='0.00000,36.00000' which='0' elec='0' direction='3' part='0' number='9' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd7_in</PIN>
+				<PIN pos='0.00000,40.00000' which='0' elec='0' direction='3' part='0' number='10' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd8_in</PIN>
+				<PIN pos='0.00000,44.00000' which='0' elec='0' direction='3' part='0' number='11' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd9_in</PIN>
+				<PIN pos='0.00000,48.00000' which='0' elec='0' direction='3' part='0' number='12' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd10_in</PIN>
+				<PIN pos='0.00000,52.00000' which='0' elec='0' direction='3' part='0' number='13' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd11_in</PIN>
+				<PIN pos='42.00000,4.00000' which='0' elec='1' direction='2' part='0' number='14' show='1' length='30' number_pos='0' centre_name='0' type='cmd_out' whdirection='out'>cmd_out</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='3'>
+			<NAME type='0'>sip_vc707_mac_engine_sgmii</NAME>
+			<REF type='0'>sip_vc707_mac_engine_sgmii</REF>
+			<DESCRIPTION>sip_vc707_mac_engine_sgmii</DESCRIPTION>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>Stellar IP Component</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>ID</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Path</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Name</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Nbr Registers</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$STAR_TYPE</NAME>
+				<DEFAULT>13</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$DATA_CHANNELS</NAME>
+				<DEFAULT>in_data|out_data</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Input Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Output Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Storage Size Unit</NAME>
+				<DEFAULT>1</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Unit</NAME>
+				<DEFAULT>?</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='0.00000,0.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='-36.00000,-24.00000' b='-6.00000,0.00000' style='2' fill='0'/>
+				<PIN pos='0.00000,-20.00000' which='0' elec='1' direction='2' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0' type='cmdclk_out' whdirection='out'>cmdclk_out</PIN>
+				<PIN pos='0.00000,-16.00000' which='0' elec='1' direction='2' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0' type='cmd_out' whdirection='out'>cmd_out</PIN>
+				<PIN pos='-42.00000,-20.00000' which='0' elec='0' direction='3' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd_in</PIN>
+				<PIN pos='0.00000,-12.00000' which='0' elec='1' direction='2' part='0' number='4' show='1' length='30' number_pos='0' centre_name='0' type='clkout' whdirection='out'>clkout</PIN>
+				<PIN pos='0.00000,-8.00000' which='0' elec='1' direction='2' part='0' number='5' show='1' length='30' number_pos='0' centre_name='0' type='rst_out' whdirection='out'>rst_out</PIN>
+				<PIN pos='-36.00000,0.00000' which='0' elec='3' direction='2' part='0' number='6' show='0' length='0' number_pos='0' centre_name='0' type='ext_mac_engine_sgmii' whdirection='ext'>ext_mac_engine_sgmii</PIN>
+				<PIN pos='-42.00000,-16.00000' which='0' elec='0' direction='3' part='0' number='7' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>in_data</PIN>
+				<PIN pos='0.00000,-4.00000' which='0' elec='1' direction='2' part='0' number='8' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out_data</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='4'>
+			<NAME type='0'>sip_fmc216_8lane</NAME>
+			<REF type='0'>sip_fmc216_8lane</REF>
+			<DESCRIPTION>sip_fmc216_8lane</DESCRIPTION>
+			<FIELD>
+				<NAME>$$STAR_TYPE</NAME>
+				<DEFAULT>6</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Unit</NAME>
+				<DEFAULT>?</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$DATA_CHANNELS</NAME>
+				<DEFAULT>|dac0:dac1:dac2:dac3:dac4:dac5:dac6:dac7:dac8:dac9:dac10:dac11:dac12:dac13:dac14:dac15</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>Stellar IP Component</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>ID</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Path</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Name</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Nbr Registers</NAME>
+				<DEFAULT>8191</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Input Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Output Storage Size</NAME>
+				<DEFAULT>32</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Storage Size Unit</NAME>
+				<DEFAULT>1</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Data Type Input</NAME>
+				<DEFAULT>10</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Input Sample Size</NAME>
+				<DEFAULT>5</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='0.00000,0.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='-36.00000,-86.00000' b='-6.00000,0.00000' style='2' fill='0'/>
+				<PIN pos='-42.00000,-82.00000' which='0' elec='0' direction='3' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0' type='clkin' whdirection='in'>clk</PIN>
+				<PIN pos='-42.00000,-78.00000' which='0' elec='0' direction='3' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0' type='rst_in' whdirection='in'>rst</PIN>
+				<PIN pos='-42.00000,-74.00000' which='0' elec='0' direction='3' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0' type='cmdclk_in' whdirection='in'>cmdclk_in</PIN>
+				<PIN pos='-42.00000,-70.00000' which='0' elec='0' direction='3' part='0' number='4' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd_in</PIN>
+				<PIN pos='0.00000,-82.00000' which='0' elec='1' direction='2' part='0' number='5' show='1' length='30' number_pos='0' centre_name='0' type='cmd_out' whdirection='out'>cmd_out</PIN>
+				<PIN pos='-42.00000,-64.00000' which='0' elec='0' direction='3' part='0' number='10' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac0</PIN>
+				<PIN pos='-42.00000,-60.00000' which='0' elec='0' direction='3' part='0' number='11' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac1</PIN>
+				<PIN pos='-36.00000,-58.00000' which='0' elec='4' direction='2' part='0' number='13' show='0' length='0' number_pos='0' centre_name='0' type='generic_def' whdirection='gen'>generic</PIN>
+				<PIN pos='-42.00000,-56.00000' which='0' elec='0' direction='3' part='0' number='12' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac2</PIN>
+				<PIN pos='-42.00000,-52.00000' which='0' elec='0' direction='3' part='0' number='13' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac3</PIN>
+				<PIN pos='-36.00000,-48.00000' which='0' elec='3' direction='2' part='0' number='14' show='0' length='0' number_pos='0' centre_name='0' type='ext_fmc216_8lane' whdirection='ext'>ext_fmc216_8lane</PIN>
+				<PIN pos='-42.00000,-48.00000' which='0' elec='0' direction='3' part='0' number='14' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac4</PIN>
+				<PIN pos='-42.00000,-44.00000' which='0' elec='0' direction='3' part='0' number='15' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac5</PIN>
+				<PIN pos='-42.00000,-40.00000' which='0' elec='0' direction='3' part='0' number='16' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac6</PIN>
+				<PIN pos='-42.00000,-36.00000' which='0' elec='0' direction='3' part='0' number='17' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac7</PIN>
+				<PIN pos='-42.00000,-32.00000' which='0' elec='0' direction='3' part='0' number='18' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac8</PIN>
+				<PIN pos='-42.00000,-28.00000' which='0' elec='0' direction='3' part='0' number='19' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac9</PIN>
+				<PIN pos='-42.00000,-24.00000' which='0' elec='0' direction='3' part='0' number='20' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac10</PIN>
+				<PIN pos='-42.00000,-20.00000' which='0' elec='0' direction='3' part='0' number='21' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac11</PIN>
+				<PIN pos='-42.00000,-16.00000' which='0' elec='0' direction='3' part='0' number='22' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac12</PIN>
+				<PIN pos='-42.00000,-12.00000' which='0' elec='0' direction='3' part='0' number='23' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac13</PIN>
+				<PIN pos='-42.00000,-8.00000' which='0' elec='0' direction='3' part='0' number='24' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac14</PIN>
+				<PIN pos='-42.00000,-4.00000' which='0' elec='0' direction='3' part='0' number='25' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>dac15</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='5'>
+			<NAME type='0'>sip_router_s1d16</NAME>
+			<REF type='0'>sip_router_s1d16</REF>
+			<DESCRIPTION>sip_router_s1d16</DESCRIPTION>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>Stellar IP Component</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>ID</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Path</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Name</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Nbr Registers</NAME>
+				<DEFAULT>4</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$STAR_TYPE</NAME>
+				<DEFAULT>1</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Input Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Output Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Storage Size Unit</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>$$DATA_CHANNELS</NAME>
+				<DEFAULT>in0|out0:out1:out2:out3:out4:out5:out6:out7:out8:out9:out10:out11:out12:out13:out14:out15</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='0.00000,0.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='-36.00000,-72.00000' b='-6.00000,0.00000' style='2' fill='0'/>
+				<PIN pos='-42.00000,-68.00000' which='0' elec='0' direction='3' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0' type='cmdclk_in' whdirection='in'>cmdclk_in</PIN>
+				<PIN pos='-42.00000,-64.00000' which='0' elec='0' direction='3' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd_in</PIN>
+				<PIN pos='0.00000,-68.00000' which='0' elec='1' direction='2' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0' type='cmd_out' whdirection='out'>cmd_out</PIN>
+				<PIN pos='-42.00000,-60.00000' which='0' elec='0' direction='3' part='0' number='4' show='1' length='30' number_pos='0' centre_name='0' type='clkin' whdirection='in'>clk</PIN>
+				<PIN pos='-42.00000,-56.00000' which='0' elec='0' direction='3' part='0' number='5' show='1' length='30' number_pos='0' centre_name='0' type='rst_in' whdirection='in'>rst</PIN>
+				<PIN pos='0.00000,-64.00000' which='0' elec='1' direction='2' part='0' number='6' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out0</PIN>
+				<PIN pos='0.00000,-60.00000' which='0' elec='1' direction='2' part='0' number='7' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out1</PIN>
+				<PIN pos='0.00000,-56.00000' which='0' elec='1' direction='2' part='0' number='8' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out2</PIN>
+				<PIN pos='0.00000,-52.00000' which='0' elec='1' direction='2' part='0' number='9' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out3</PIN>
+				<PIN pos='0.00000,-48.00000' which='0' elec='1' direction='2' part='0' number='10' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out4</PIN>
+				<PIN pos='0.00000,-44.00000' which='0' elec='1' direction='2' part='0' number='11' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out5</PIN>
+				<PIN pos='0.00000,-40.00000' which='0' elec='1' direction='2' part='0' number='12' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out6</PIN>
+				<PIN pos='0.00000,-36.00000' which='0' elec='1' direction='2' part='0' number='13' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out7</PIN>
+				<PIN pos='0.00000,-32.00000' which='0' elec='1' direction='2' part='0' number='14' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out8</PIN>
+				<PIN pos='0.00000,-28.00000' which='0' elec='1' direction='2' part='0' number='15' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out9</PIN>
+				<PIN pos='0.00000,-24.00000' which='0' elec='1' direction='2' part='0' number='16' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out10</PIN>
+				<PIN pos='0.00000,-20.00000' which='0' elec='1' direction='2' part='0' number='17' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out11</PIN>
+				<PIN pos='0.00000,-16.00000' which='0' elec='1' direction='2' part='0' number='18' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out12</PIN>
+				<PIN pos='0.00000,-12.00000' which='0' elec='1' direction='2' part='0' number='19' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out13</PIN>
+				<PIN pos='0.00000,-8.00000' which='0' elec='1' direction='2' part='0' number='20' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out14</PIN>
+				<PIN pos='0.00000,-4.00000' which='0' elec='1' direction='2' part='0' number='21' show='1' length='30' number_pos='0' centre_name='0' type='wh_out' whdirection='out'>out15</PIN>
+				<PIN pos='-42.00000,-52.00000' which='0' elec='0' direction='3' part='0' number='22' show='1' length='30' number_pos='0' centre_name='0' type='wh_in' whdirection='in'>in0</PIN>
+				<PIN pos='-36.00000,0.00000' which='0' elec='4' direction='2' part='0' number='23' show='0' length='0' number_pos='0' centre_name='0' type='generic_def' whdirection='gen'>generic</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<SYMBOLDEF id='6'>
+			<NAME type='0'>sip_cid_ex</NAME>
+			<REF type='0'>sip_cid_ex</REF>
+			<DESCRIPTION>sip_cid_ex</DESCRIPTION>
+			<FIELD>
+				<NAME>$$STAR_TYPE</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000002</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Package</NAME>
+				<DEFAULT>Stellar IP Component</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>ID</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Path</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>LST Name</NAME>
+				<DEFAULT>AUTO</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Nbr Registers</NAME>
+				<DEFAULT>8</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Input Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Output Storage Size</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<FIELD>
+				<NAME>Storage Size Unit</NAME>
+				<DEFAULT>0</DEFAULT>
+				<FT>000001</FT>
+				<VALUE></VALUE>
+				<POS>0.00000,0.00000</POS>
+			</FIELD>
+			<REF_POINT power='0' part='0' pos='0.00000,0.00000'/>
+			<TinyCAD>
+				<RECTANGLE a='-36.00000,-16.00000' b='-6.00000,0.00000' style='2' fill='0'/>
+				<PIN pos='-42.00000,-12.00000' which='0' elec='0' direction='3' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0' type='cmdclk_in' whdirection='in'>cmdclk_in</PIN>
+				<PIN pos='-42.00000,-8.00000' which='0' elec='0' direction='3' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0' type='cmd_in' whdirection='in'>cmd_in</PIN>
+				<PIN pos='-42.00000,-4.00000' which='0' elec='0' direction='3' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0' type='rst_in' whdirection='in'>rst</PIN>
+				<PIN pos='0.00000,-12.00000' which='0' elec='1' direction='2' part='0' number='4' show='1' length='30' number_pos='0' centre_name='0' type='cmd_out' whdirection='out'>cmd_out</PIN>
+				<PIN pos='-36.00000,0.00000' which='0' elec='4' direction='2' part='0' number='5' show='0' length='0' number_pos='0' centre_name='0' type='generic_def' whdirection='gen'>generic</PIN>
+			</TinyCAD>
+		</SYMBOLDEF>
+		<OPTIONS>
+			<GRID>0</GRID>
+			<UNITS>0</UNITS>
+			<COLOR_WIRE>FF0000</COLOR_WIRE>
+			<COLOR_BUS>0000FF</COLOR_BUS>
+			<COLOR_JUNCTION>000000</COLOR_JUNCTION>
+			<COLOR_COLOR_NOCONNECT>000000</COLOR_COLOR_NOCONNECT>
+			<COLOR_LABEL>208000</COLOR_LABEL>
+			<COLOR_POWER>000000</COLOR_POWER>
+			<COLOR_PIN>4040C0</COLOR_PIN>
+			<COLOR_HIDDEN_PIN>208020</COLOR_HIDDEN_PIN>
+			<COLOR_BACKGROUND>FFFFFF</COLOR_BACKGROUND>
+		</OPTIONS>
+		<SYMBOL id='6' pos='72.00000,60.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='sip_cid_ex' show='0' pos='1.00000,4.40000'/>
+			<FIELD type='0' description='Name' value='sip_cid_ex' show='1' pos='-36.00000,-16.00000'/>
+			<FIELD type='2' description='$$STAR_TYPE' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='Stellar IP Component' show='0' pos='-36.00000,-13.60000'/>
+			<FIELD type='1' description='ID' value='0' show='0' pos='-36.00000,-11.20000'/>
+			<FIELD type='1' description='LST Path' value='AUTO' show='0' pos='-36.00000,-8.80000'/>
+			<FIELD type='1' description='LST Name' value='AUTO' show='0' pos='-36.00000,-6.40000'/>
+			<FIELD type='1' description='Nbr Registers' value='8' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Input Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Output Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Storage Size Unit' value='0' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='1' pos='70.00000,90.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='sip_i2c_master' show='0' pos='1.00000,4.40000'/>
+			<FIELD type='0' description='Name' value='sip_i2c_master' show='1' pos='-36.00000,-20.00000'/>
+			<FIELD type='1' description='Package' value='Stellar IP Component' show='0' pos='-36.00000,6.80000'/>
+			<FIELD type='1' description='ID' value='0' show='0' pos='-36.00000,8.80000'/>
+			<FIELD type='1' description='LST Path' value='sip_i2c_master\sip_files' show='0' pos='-36.00000,10.80000'/>
+			<FIELD type='1' description='LST Name' value='sip_i2c_master.lst' show='0' pos='-36.00000,12.80000'/>
+			<FIELD type='1' description='Nbr Registers' value='65536' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$STAR_TYPE' value='14' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Unit' value='4' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Input Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Output Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Storage Size Unit' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$DATA_CHANNELS' value='|' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='2' pos='280.00000,96.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='sip_cmd12_mux' show='0' pos='1.00000,4.40000'/>
+			<FIELD type='0' description='Name' value='sip_cmd12_mux' show='1' pos='-36.00000,-56.00000'/>
+			<FIELD type='2' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$SPICE_EPILOG_PRIORITY' value='5' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='Stellar IP Component' show='0' pos='-36.00000,6.80000'/>
+			<FIELD type='1' description='ID' value='0' show='0' pos='-36.00000,8.80000'/>
+			<FIELD type='1' description='LST Path' value='sip_cmd12_mux\sip_files' show='0' pos='-36.00000,10.80000'/>
+			<FIELD type='1' description='LST Name' value='sip_cmd12_mux.lst' show='0' pos='-36.00000,12.80000'/>
+			<FIELD type='1' description='Nbr Registers' value='0' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='3' pos='58.00000,126.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000' datapath_start='0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'>
+			<FIELD type='0' description='Ref' value='sip_vc707_mac_engine_sgmii' show='0' pos='1.00000,4.40000'/>
+			<FIELD type='0' description='Name' value='sip_vc707_mac_engine_sgmii' show='1' pos='-36.00000,-24.00000'/>
+			<FIELD type='1' description='Package' value='Stellar IP Component' show='0' pos='-36.00000,6.80000'/>
+			<FIELD type='1' description='ID' value='0' show='0' pos='-36.00000,8.80000'/>
+			<FIELD type='1' description='LST Path' value='sip_vc707_mac_engine_sgmii\sip_files' show='0' pos='-36.00000,10.80000'/>
+			<FIELD type='1' description='LST Name' value='sip_vc707_mac_engine_sgmii_v7_vivado.lst' show='0' pos='-36.00000,12.80000'/>
+			<FIELD type='1' description='Nbr Registers' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$STAR_TYPE' value='13' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$DATA_CHANNELS' value='in_data|out_data' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Input Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Output Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Storage Size Unit' value='1' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Unit' value='0' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<LABEL pos='58.00000,106.00000' direction='3' font='3' color='208000' style='0'>0_cmdclk_out</LABEL>
+		<LABEL pos='30.00000,48.00000' direction='2' font='3' color='208000' style='0'>0_cmdclk_out</LABEL>
+		<LABEL pos='104.00000,106.00000' direction='2' font='3' color='208000' style='0'>0_cmdclk_out</LABEL>
+		<LABEL pos='178.00000,100.00000' direction='2' font='3' color='208000' style='0'>0_cmdclk_out</LABEL>
+		<LABEL pos='28.00000,82.00000' direction='2' font='3' color='208000' style='0'>0_cmdclk_out</LABEL>
+		<LABEL pos='238.00000,44.00000' direction='2' font='3' color='208000' style='0'>0_cmdclk_out</LABEL>
+		<LABEL pos='58.00000,110.00000' direction='3' font='3' color='208000' style='0'>1_cmd_out</LABEL>
+		<LABEL pos='30.00000,52.00000' direction='2' font='3' color='208000' style='0'>1_cmd_out</LABEL>
+		<LABEL pos='104.00000,110.00000' direction='2' font='3' color='208000' style='0'>1_cmd_out</LABEL>
+		<LABEL pos='178.00000,104.00000' direction='2' font='3' color='208000' style='0'>1_cmd_out</LABEL>
+		<LABEL pos='28.00000,86.00000' direction='2' font='3' color='208000' style='0'>1_cmd_out</LABEL>
+		<LABEL pos='58.00000,118.00000' direction='3' font='3' color='208000' style='0'>2_rst_out</LABEL>
+		<LABEL pos='30.00000,56.00000' direction='2' font='3' color='208000' style='0'>2_rst_out</LABEL>
+		<LABEL pos='104.00000,118.00000' direction='2' font='3' color='208000' style='0'>2_rst_out</LABEL>
+		<LABEL pos='178.00000,96.00000' direction='2' font='3' color='208000' style='0'>2_rst_out</LABEL>
+		<LABEL pos='28.00000,78.00000' direction='2' font='3' color='208000' style='0'>2_rst_out</LABEL>
+		<LABEL pos='58.00000,114.00000' direction='3' font='3' color='208000' style='0'>3_clkout</LABEL>
+		<LABEL pos='104.00000,114.00000' direction='2' font='3' color='208000' style='0'>3_clkout</LABEL>
+		<LABEL pos='178.00000,92.00000' direction='2' font='3' color='208000' style='0'>3_clkout</LABEL>
+		<LABEL pos='28.00000,74.00000' direction='2' font='3' color='208000' style='0'>3_clkout</LABEL>
+		<LABEL pos='72.00000,48.00000' direction='3' font='3' color='208000' style='0'>10_cmd_out</LABEL>
+		<LABEL pos='70.00000,74.00000' direction='3' font='3' color='208000' style='0'>14_cmd_out</LABEL>
+		<LABEL pos='238.00000,72.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,76.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,80.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,84.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,88.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,92.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<WIRE a='238.00000,48.00000' b='72.00000,48.00000'/>
+		<WIRE a='70.00000,74.00000' b='96.00000,74.00000'/>
+		<WIRE a='96.00000,74.00000' b='96.00000,52.00000'/>
+		<WIRE a='96.00000,52.00000' b='238.00000,52.00000'/>
+		<WIRE a='280.00000,44.00000' b='286.00000,44.00000'/>
+		<WIRE a='286.00000,44.00000' b='286.00000,30.00000'/>
+		<WIRE a='58.00000,122.00000' b='104.00000,122.00000' datapath='0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15'/>
+		<WIRE a='146.00000,114.00000' b='178.00000,114.00000' datapath='1'/>
+		<WIRE a='146.00000,118.00000' b='178.00000,118.00000' datapath='2'/>
+		<WIRE a='146.00000,122.00000' b='178.00000,122.00000' datapath='3'/>
+		<LABEL pos='16.00000,110.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,64.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<LABEL pos='238.00000,68.00000' direction='2' font='3' color='208000' style='0'>tiedto0</LABEL>
+		<SYMBOL id='4' pos='220.00000,174.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000' fmc_side='0'>
+			<FIELD type='0' description='Ref' value='sip_fmc216_8lane' show='0' pos='-36.00000,2.40000'/>
+			<FIELD type='0' description='Name' value='sip_fmc216_8lane' show='1' pos='-36.00000,-86.00000'/>
+			<FIELD type='2' description='$$STAR_TYPE' value='6' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Unit' value='1' show='0' pos='-36.00000,4.80000'/>
+			<FIELD type='2' description='$$DATA_CHANNELS' value='|dac0:dac1:dac2:dac3:dac4:dac5:dac6:dac7:dac8:dac9:dac10:dac11:dac12:dac13:dac14:dac15' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Package' value='Stellar IP Component' show='0' pos='-36.00000,7.20000'/>
+			<FIELD type='1' description='ID' value='0' show='0' pos='-36.00000,9.60000'/>
+			<FIELD type='1' description='LST Path' value='sip_fmc216_8lane\sip_files' show='0' pos='-36.00000,12.00000'/>
+			<FIELD type='1' description='LST Name' value='sip_fmc216_8lane_vivado.lst' show='0' pos='-36.00000,14.40000'/>
+			<FIELD type='1' description='Nbr Registers' value='8191' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Input Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Output Storage Size' value='32' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Storage Size Unit' value='1' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Data Type Input' value='10' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Input Sample Size' value='5' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<SYMBOL id='5' pos='146.00000,174.00000' part='0' rotate='0' can_scale='0' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+			<FIELD type='0' description='Ref' value='sip_router_s1d16' show='0' pos='-36.00000,2.40000'/>
+			<FIELD type='0' description='Name' value='sip_router_s1d16' show='1' pos='-36.00000,-72.00000'/>
+			<FIELD type='1' description='Package' value='Stellar IP Component' show='0' pos='-36.00000,4.80000'/>
+			<FIELD type='1' description='ID' value='0' show='0' pos='-36.00000,7.20000'/>
+			<FIELD type='1' description='LST Path' value='AUTO' show='0' pos='-36.00000,9.60000'/>
+			<FIELD type='1' description='LST Name' value='AUTO' show='0' pos='-36.00000,12.00000'/>
+			<FIELD type='1' description='Nbr Registers' value='4' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$STAR_TYPE' value='1' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Input Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Output Storage Size' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='1' description='Storage Size Unit' value='0' show='0' pos='0.00000,0.00000'/>
+			<FIELD type='2' description='$$DATA_CHANNELS' value='in0|out0:out1:out2:out3:out4:out5:out6:out7:out8:out9:out10:out11:out12:out13:out14:out15' show='0' pos='0.00000,0.00000'/>
+		</SYMBOL>
+		<WIRE a='146.00000,106.00000' b='146.00000,56.00000'/>
+		<WIRE a='146.00000,56.00000' b='238.00000,56.00000'/>
+		<WIRE a='220.00000,92.00000' b='220.00000,60.00000'/>
+		<WIRE a='220.00000,60.00000' b='238.00000,60.00000'/>
+		<WIRE a='286.00000,30.00000' b='8.00000,30.00000'/>
+		<WIRE a='8.00000,30.00000' b='8.00000,106.00000'/>
+		<WIRE a='8.00000,106.00000' b='16.00000,106.00000'/>
+		<WIRE a='146.00000,126.00000' b='178.00000,126.00000' datapath='4'/>
+		<WIRE a='146.00000,130.00000' b='178.00000,130.00000' datapath='5'/>
+		<WIRE a='178.00000,134.00000' b='146.00000,134.00000' datapath='6'/>
+		<WIRE a='146.00000,138.00000' b='178.00000,138.00000' datapath='7'/>
+		<WIRE a='178.00000,142.00000' b='146.00000,142.00000' datapath='8'/>
+		<WIRE a='146.00000,146.00000' b='178.00000,146.00000' datapath='9'/>
+		<WIRE a='178.00000,150.00000' b='146.00000,150.00000' datapath='10'/>
+		<WIRE a='146.00000,158.00000' b='178.00000,158.00000' datapath='12'/>
+		<WIRE a='178.00000,154.00000' b='146.00000,154.00000' datapath='11'/>
+		<WIRE a='146.00000,162.00000' b='178.00000,162.00000' datapath='13'/>
+		<WIRE a='178.00000,166.00000' b='146.00000,166.00000' datapath='14'/>
+		<WIRE a='146.00000,170.00000' b='178.00000,170.00000' datapath='15'/>
+		<WIRE a='146.00000,110.00000' b='178.00000,110.00000' datapath='0'/>
+	</TinyCAD>
+</TinyCADSheets>

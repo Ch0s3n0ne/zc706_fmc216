@@ -1,0 +1,22 @@
+vhdl xil_defaultlib  \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/sgmii_adapt/gig_ethernet_pcs_pma_1_clk_gen.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_cpll_railing.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_gtwizard_gt.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_gtwizard.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_gtwizard_multi_gt.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_gtwizard_init.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_tx_startup_fsm.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_rx_startup_fsm.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/sgmii_adapt/gig_ethernet_pcs_pma_1_johnson_cntr.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/gig_ethernet_pcs_pma_1_reset_sync.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_rx_elastic_buffer.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/sgmii_adapt/gig_ethernet_pcs_pma_1_rx_rate_adapt.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/sgmii_adapt/gig_ethernet_pcs_pma_1_sgmii_adapt.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/gig_ethernet_pcs_pma_1_sync_block.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_reset_wtd_timer.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/transceiver/gig_ethernet_pcs_pma_1_transceiver.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/sgmii_adapt/gig_ethernet_pcs_pma_1_tx_rate_adapt.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/gig_ethernet_pcs_pma_1_block.vhd" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/gig_ethernet_pcs_pma_1_1/synth/gig_ethernet_pcs_pma_1.vhd" \
+
+nosort

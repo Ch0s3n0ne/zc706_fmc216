@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.gen/sources_1/ip/wfm_output_fifo/sim/wfm_output_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wfm_output_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_dpram/sim/dac3283_wfm_dpram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dac3283_wfm_dpram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_output_fifo/sim/dac3283_wfm_output_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dac3283_wfm_output_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

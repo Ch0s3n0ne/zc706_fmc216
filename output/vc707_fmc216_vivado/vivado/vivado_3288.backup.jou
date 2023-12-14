@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Mon Jul 24 11:51:32 2023
+# Process ID: 3288
+# Current directory: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8048 C:\4dsp_test\527_vc707_fmc216\output\vc707_fmc216_vivado\vivado\vc707_fmc216_vivado.xpr
+# Log file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vivado.log
+# Journal file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado\vivado.jou
+# Running On: DESKTOP-A0RH3KH, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 6, Host memory: 34266 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.xpr
+
+reset_run impl_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1

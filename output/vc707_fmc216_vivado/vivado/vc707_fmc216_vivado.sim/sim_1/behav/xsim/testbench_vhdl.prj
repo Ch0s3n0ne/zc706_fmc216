@@ -1,0 +1,41 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Src/sip_cid_ex/cid.vhd" \
+"../../../../../Src/sip_cid_ex/cid_package.vhd" \
+"../../../../../Src/sip_cid_ex/cid_regs.vhd" \
+"../../../../../Src/sip_cid_ex/cid_stellar_cmd.vhd" \
+"../../../../../Src/sip_fmc216_8lane/types.vhd" \
+"../../../../../Src/sip_fmc216_8lane/dac38j84_jesd.vhd" \
+"../../../../../Src/sip_fmc216_8lane/dac_wrapper.vhd" \
+"../../../../../../../simulate/vhdl/div_clock.vhd" \
+"../../../../../Src/sip_fmc216_8lane/fmc216_stellar_cmd.vhd" \
+"../../../../../Src/sip_fmc216_8lane/fmc216_ctrl.vhd" \
+"../../../../../Src/sip_fmc216_8lane/jesd204b_vc707_8lane_dac.vhd" \
+"../../../../../Src/sip_cid_ex/pulse2pulse.vhd" \
+"../../../../../Src/sip_fmc216_8lane/wfm_ctrl.vhd" \
+"../../../../../Src/sip_fmc216_8lane/wfm.vhd" \
+"../../../../../Src/sip_fmc216_8lane/xcvr_wrapper.vhd" \
+"../../../../../../../simulate/vhdl/xcvr_wrapper_emu.vhd" \
+"../../../../../Src/sip_fmc216_8lane/sip_freq_cnt16.vhd" \
+"../../../../../Src/sip_fmc216_8lane/fmc216.vhd" \
+"../../../../../Src/sip_i2c_master/i2c_master.vhd" \
+"../../../../../Src/sip_i2c_master/i2c_master_bit_ctrl.vhd" \
+"../../../../../Src/sip_i2c_master/i2c_master_byte_ctrl.vhd" \
+"../../../../../Src/sip_i2c_master/i2c_master_stellar_cmd.vhd" \
+"../../../../../Src/sip_i2c_master/i2c_master_top.vhd" \
+"../../../../../Src/sip_router_s1d16/router_s1d16.vhd" \
+"../../../../../Src/sip_router_s1d16/router_s1d16_regs.vhd" \
+"../../../../../Src/sip_router_s1d16/router_s1d16_stellar_cmd.vhd" \
+"../../../../../Src/sip_cid_ex/sip_cid_ex.vhd" \
+"../../../../../Src/sip_cmd12_mux/sip_cmd12_mux.vhd" \
+"../../../../../Src/sip_fmc216_8lane/sip_fmc216_8lane.vhd" \
+"../../../../../Src/sip_i2c_master/sip_i2c_master.vhd" \
+"../../../../../Src/sip_router_s1d16/sip_router_s1d16.vhd" \
+"../../../../../../../simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/txt_util.vhd" \
+"../../../../../../../simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/std_logic_textio.vhd" \
+"../../../../../../../simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/sip_vc707_mac_engine_sgmii_emu.vhd" \
+"../../../../../Src/vc707_fmc216_vivado.vhd" \
+"../../../../../../../simulate/tb_fmc216.vhd" \
+
+# Do not sort compile order
+nosort

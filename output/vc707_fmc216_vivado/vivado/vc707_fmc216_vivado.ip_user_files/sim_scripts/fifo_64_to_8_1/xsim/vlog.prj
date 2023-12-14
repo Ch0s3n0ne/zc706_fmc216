@@ -1,0 +1,6 @@
+verilog xil_defaultlib  \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/fifo_64_to_8_1/sim/fifo_64_to_8.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

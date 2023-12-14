@@ -1,0 +1,2 @@
+dac3283_wfm_dpram.v,verilog,xil_defaultlib,../../../../vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_dpram/sim/dac3283_wfm_dpram.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

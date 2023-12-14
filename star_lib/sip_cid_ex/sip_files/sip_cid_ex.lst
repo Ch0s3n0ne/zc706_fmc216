@@ -1,0 +1,6 @@
+sip_cid_ex.vhd
+..\vhdl\cid.vhd
+..\vhdl\cid_package.vhd
+..\vhdl\cid_stellar_cmd.vhd
+..\vhdl\cid_regs.vhd
+..\vhdl\pulse2pulse.vhd

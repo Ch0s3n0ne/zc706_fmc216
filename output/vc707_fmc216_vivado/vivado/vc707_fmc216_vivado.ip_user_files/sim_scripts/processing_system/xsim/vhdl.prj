@@ -1,0 +1,10 @@
+vhdl xil_defaultlib  \
+"../../../bd/processing_system/ip/processing_system_axi_gpio_0_0/sim/processing_system_axi_gpio_0_0.vhd" \
+"../../../bd/processing_system/ip/processing_system_rst_ps7_0_50M_0/sim/processing_system_rst_ps7_0_50M_0.vhd" \
+"../../../bd/processing_system/ip/processing_system_axi_gpio_1_0/sim/processing_system_axi_gpio_1_0.vhd" \
+"../../../bd/processing_system/sim/processing_system.vhd" \
+"../../../bd/processing_system/ipshared/c31e/hdl/AXI_ZC706_FMC216_v1_0_S00_AXI.vhd" \
+"../../../bd/processing_system/ipshared/c31e/hdl/AXI_ZC706_FMC216_v1_0.vhd" \
+"../../../bd/processing_system/ip/processing_system_AXI_ZC706_FMC216_0_2/sim/processing_system_AXI_ZC706_FMC216_0_2.vhd" \
+
+nosort

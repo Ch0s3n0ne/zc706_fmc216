@@ -1,0 +1,39 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.gen/sources_1/ip/wfm_output_fifo/sim/wfm_output_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module wfm_output_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_dpram/sim/dac3283_wfm_dpram.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dac3283_wfm_dpram
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_output_fifo/sim/dac3283_wfm_output_fifo.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dac3283_wfm_output_fifo
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_cid_ex/cid.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cid'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_cid_ex/cid_package.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_cid_ex/cid_regs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cid_regs'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_cid_ex/cid_stellar_cmd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cid_stellar_cmd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/types.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac38j84_jesd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dac38j84_jesd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dac_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/simulate/vhdl/div_clock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'div_clock'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/fmc216_stellar_cmd.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fmc216_stellar_cmd'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/fmc216_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'fmc216_ctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/jesd204b_vc707_8lane_dac.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'jesd204b_vc707_8lane_dac'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_cid_ex/pulse2pulse.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'pulse2pulse'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_ctrl.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'wfm_ctrl'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'wfm'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'xcvr_wrapper'
+ERROR: [VRFC 10-2987] 'xcvr_fmc216' is not compiled in library 'xil_defaultlib' [C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_wrapper.vhd:231]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_wrapper.vhd:74]
+INFO: [VRFC 10-3070] VHDL file 'C:/4dsp_test/zc706_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_wrapper.vhd' ignored due to errors

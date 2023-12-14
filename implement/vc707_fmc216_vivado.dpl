@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DatapathList>
+	<Device>
+		<Board type='VC707'/>
+		<FPGA type='XC7VX485T-2FFG1761'/>
+		<Constellation number='527'/>
+		<Option WriteAckEnabled='1'/>
+	</Device>
+	<Unit number='0' name='sip_vc707_mac_engine_sgmii' code='0088' index='0'>
+		<Datapath number='0' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.80</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='1' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.01</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.81</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='2' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.02</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.82</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='3' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.03</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.83</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='4' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.04</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.84</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='5' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.05</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.85</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='6' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.06</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.86</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='7' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.07</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.87</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='8' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.08</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.88</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='9' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.09</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.89</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='10' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0A</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8A</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='11' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0B</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8B</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='12' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0C</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8C</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='13' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0D</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8D</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='14' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0E</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8E</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='15' dir='0'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0F</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8F</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+	</Unit>
+	<Unit number='1' name='sip_fmc216_8lane' code='0137' index='0' fmc_side='0'>
+		<Datapath number='0' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.80</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='1' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.01</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.81</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='2' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.02</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.82</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='3' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.03</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.83</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='4' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.04</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.84</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='5' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.05</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.85</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='6' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.06</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.86</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='7' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.07</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.87</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='8' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.08</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.88</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='9' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.09</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.89</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='10' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0A</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8A</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='11' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0B</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8B</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='12' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0C</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8C</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='13' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0D</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8D</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='14' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0E</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8E</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+		<Datapath number='15' dir='1'>
+			<Segment>
+				<Input>0000.00.00</Input>
+				<Output>0088.00.00</Output>
+			</Segment>
+			<Segment>
+				<Input>0081.00.80</Input>
+				<Output>0081.00.0F</Output>
+			</Segment>
+			<Segment>
+				<Input>0137.00.8F</Input>
+				<Output>0000.00.00</Output>
+			</Segment>
+		</Datapath>
+	</Unit>
+	<Unit number='4' name='sip_i2c_master' code='0005' index='0'/>
+	<StarCapability name='sip_cid_ex' code='0101'>
+		<Register>01030101</Register>
+		<Register>00000000</Register>
+		<Register>00000000</Register>
+		<Register>00000000</Register>
+	</StarCapability>
+	<StarCapability name='sip_cmd12_mux' code='0018'>
+		<Register>01030018</Register>
+		<Register>00000000</Register>
+		<Register>00000000</Register>
+		<Register>00000000</Register>
+	</StarCapability>
+	<StarCapability name='sip_fmc216_8lane' code='0137'>
+		<Register>01030137</Register>
+		<Register>00100006</Register>
+		<Register>00080001</Register>
+		<Register>0005000A</Register>
+	</StarCapability>
+	<StarCapability name='sip_i2c_master' code='0005'>
+		<Register>01030005</Register>
+		<Register>0000000E</Register>
+		<Register>00000000</Register>
+		<Register>00000000</Register>
+	</StarCapability>
+	<StarCapability name='sip_router_s1d16' code='0081'>
+		<Register>01030081</Register>
+		<Register>10010001</Register>
+		<Register>00000000</Register>
+		<Register>00000000</Register>
+	</StarCapability>
+	<StarCapability name='sip_vc707_mac_engine_sgmii' code='0088'>
+		<Register>01030088</Register>
+		<Register>0101000D</Register>
+		<Register>00000001</Register>
+		<Register>00000000</Register>
+	</StarCapability>
+	<StarIndex name='sip_cid_ex' code='0101'>0</StarIndex>
+	<StarIndex name='sip_i2c_master' code='0005'>0</StarIndex>
+	<StarIndex name='sip_cmd12_mux' code='0018'>0</StarIndex>
+	<StarIndex name='sip_vc707_mac_engine_sgmii' code='0088'>0</StarIndex>
+	<StarIndex name='sip_fmc216_8lane' code='0137'>0</StarIndex>
+	<StarIndex name='sip_router_s1d16' code='0081'>0</StarIndex>
+</DatapathList>

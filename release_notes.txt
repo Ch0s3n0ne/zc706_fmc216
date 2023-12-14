@@ -1,0 +1,36 @@
+Release Note for 527_vc707_fmc216
+
+Date                    : 05/18/2016
+
+Design revision         : 1.2
+Vivado version          : 2015.4
+Windows version         : Windows8.1 x64
+StellarIP version       : 1.3.13.0
+Test Platform           : vc707
+Platform revision       : rev c
+Test software version   : FMC216App
+Release notes           : sysref update
+
+------------------------------------------------------------------
+Date                    : 03/31/2016
+
+Design revision         : 1.1
+Vivado version          : 2015.1
+Windows version         : Windows8.1 x64
+StellarIP version       : 1.3.13.0
+Test Platform           : vc707
+Platform revision       : rev1.0
+Test software version   : 7313
+Release notes           : rewrote waveform repeat
+
+------------------------------------------------------------------
+Date                    : 03/17/2016
+
+Design revision         : 1.0
+Vivado version          : 2015.1
+Windows version         : Windows8.1 x64
+StellarIP version       : 1.3.13.0
+Test Platform           : vc707
+Platform revision       : rev 1.1
+Test software version   : fmc216 7310
+Release notes           : standard release

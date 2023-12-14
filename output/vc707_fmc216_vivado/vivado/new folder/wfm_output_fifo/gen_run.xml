@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="wfm_output_fifo_synth_1" LaunchPart="xc7vx485tffg1761-2" LaunchTime="1689687894">
+  <File Type="PA-TCL" Name="wfm_output_fifo.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="wfm_output_fifo_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="wfm_output_fifo_reports.tcl"/>
+  <File Type="RDS-RDS" Name="wfm_output_fifo.vds"/>
+  <File Type="RDS-UTIL" Name="wfm_output_fifo_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="wfm_output_fifo_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="wfm_output_fifo.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="wfm_output_fifo_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="wfm_output_fifo_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/wfm_output_fifo">
+    <File Path="$PPRDIR/../Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Src/sip_fmc216_8lane/wfm_output_fifo.xcix">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="wfm_output_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/wfm_output_fifo">
+    <File Path="$PPRDIR/../Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Src/sip_fmc216_8lane/wfm_output_fifo.xcix">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopModule" Val="wfm_output_fifo"/>
+      <Option Name="UseBlackboxStub" Val="1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

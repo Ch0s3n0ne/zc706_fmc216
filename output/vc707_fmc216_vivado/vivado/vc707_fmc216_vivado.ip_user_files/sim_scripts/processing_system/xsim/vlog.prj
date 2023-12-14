@@ -1,0 +1,10 @@
+verilog xil_defaultlib --include "C:/Xilinx/Vivado/2021.2/data/xilinx_vip/include" --include "../../../../vc707_fmc216_vivado.gen/sources_1/bd/processing_system/ipshared/ec67/hdl" --include "../../../../vc707_fmc216_vivado.gen/sources_1/bd/processing_system/ipshared/3007/hdl" --include "../../../../vc707_fmc216_vivado.gen/sources_1/bd/processing_system/ipshared/62b6" \
+"../../../bd/processing_system/ip/processing_system_processing_system7_0_0/sim/processing_system_processing_system7_0_0.v" \
+"../../../bd/processing_system/ip/processing_system_xbar_0/sim/processing_system_xbar_0.v" \
+"../../../bd/processing_system/ip/processing_system_clk_wiz_0_0/processing_system_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/processing_system/ip/processing_system_clk_wiz_0_0/processing_system_clk_wiz_0_0.v" \
+"../../../bd/processing_system/ip/processing_system_auto_pc_0/sim/processing_system_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

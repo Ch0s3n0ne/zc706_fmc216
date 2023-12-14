@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../vc707_fmc216_vivado.gen/sources_1/bd/processing_system/ipshared/ec67/hdl" --include "../../../../vc707_fmc216_vivado.gen/sources_1/bd/processing_system/ipshared/3007/hdl" --include "../../../../vc707_fmc216_vivado.gen/sources_1/bd/processing_system/ipshared/62b6" --include "C:/Xilinx/Vivado/2021.2/data/xilinx_vip/include" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/wfm_output_fifo/sim/wfm_output_fifo.v" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_dpram/sim/dac3283_wfm_dpram.v" \
+"../../../../vc707_fmc216_vivado.gen/sources_1/ip/dac3283_wfm_output_fifo/sim/dac3283_wfm_output_fifo.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

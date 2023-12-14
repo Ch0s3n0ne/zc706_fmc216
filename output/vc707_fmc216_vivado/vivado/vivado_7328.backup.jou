@@ -1,0 +1,59 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Wed Jul 19 15:12:33 2023
+# Process ID: 7328
+# Current directory: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13732 C:\4dsp_test\527_vc707_fmc216\output\vc707_fmc216_vivado\vivado\vc707_fmc216_vivado.xpr
+# Log file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vivado.log
+# Journal file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado\vivado.jou
+# Running On: DESKTOP-A0RH3KH, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 6, Host memory: 34266 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.xpr
+launch_simulation
+source testbench.tcl
+run 10 us
+close_sim
+launch_simulation
+source testbench.tcl
+run 10 us
+create_wave_config; add_wave /; set_property needs_save false [current_wave_config]
+run 10 us
+help -message {message_number}
+help -message {simulator 43-3120}
+close_sim
+launch_simulation
+source testbench.tcl
+add_bp {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} 190
+remove_bps -file {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} -line 190
+run 10 us
+add_bp {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} 190
+remove_bps -file {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} -line 190
+add_bp {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} 190
+remove_bps -file {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} -line 190
+add_bp {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} 190
+remove_bps -file {C:/4dsp_test/527_vc707_fmc216/simulate/tb_fmc216.vhd} -line 190
+run 10 us
+relaunch_sim
+relaunch_sim
+run 10 us
+relaunch_sim
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 us
+run 10 ms
+relaunch_sim
+run 71 us
+relaunch_sim
+run 100 us
+run 100 us
+run 100 us
+run 10 ms
+relaunch_sim
+run 71 us
+synth_design -rtl -rtl_skip_mlo -name rtl_1

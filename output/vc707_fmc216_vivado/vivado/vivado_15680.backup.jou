@@ -1,0 +1,98 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Tue Jul 18 17:14:33 2023
+# Process ID: 15680
+# Current directory: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18928 C:\4dsp_test\527_vc707_fmc216\output\vc707_fmc216_vivado\vivado\vc707_fmc216_vivado.xpr
+# Log file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vivado.log
+# Journal file: C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado\vivado.jou
+# Running On: DESKTOP-A0RH3KH, OS: Windows, CPU Frequency: 3398 MHz, CPU Physical cores: 6, Host memory: 34266 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+reset_project
+launch_runs synth_1 -jobs 6
+report_ip_status -name ip_status 
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/afifo/afifo.xci]
+catch { config_ip_cache -export [get_ips -all afifo] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/afifo/afifo.xci] -no_script -sync -force -quiet
+launch_runs afifo_synth_1 -jobs 6
+wait_on_run afifo_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/afifo/afifo.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_dpram/dac3283_wfm_dpram.xci]
+catch { config_ip_cache -export [get_ips -all dac3283_wfm_dpram] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_dpram/dac3283_wfm_dpram.xci] -no_script -sync -force -quiet
+launch_runs dac3283_wfm_dpram_synth_1 -jobs 6
+wait_on_run dac3283_wfm_dpram_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_dpram/dac3283_wfm_dpram.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xci]
+catch { config_ip_cache -export [get_ips -all dac3283_wfm_output_fifo] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xci] -no_script -sync -force -quiet
+launch_runs dac3283_wfm_output_fifo_synth_1 -jobs 6
+wait_on_run dac3283_wfm_output_fifo_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/dac3283_wfm_output_fifo/dac3283_wfm_output_fifo.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/fifo_64_to_8/fifo_64_to_8.xci]
+catch { config_ip_cache -export [get_ips -all fifo_64_to_8] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/fifo_64_to_8/fifo_64_to_8.xci] -no_script -sync -force -quiet
+launch_runs fifo_64_to_8_synth_1 -jobs 6
+wait_on_run fifo_64_to_8_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/fifo_64_to_8/fifo_64_to_8.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1.xci]
+catch { config_ip_cache -export [get_ips -all gig_ethernet_pcs_pma_1] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1.xci] -no_script -sync -force -quiet
+launch_runs gig_ethernet_pcs_pma_1_synth_1 -jobs 6
+wait_on_run gig_ethernet_pcs_pma_1_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/pll0/pll0.xci]
+catch { config_ip_cache -export [get_ips -all pll0] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/pll0/pll0.xci] -no_script -sync -force -quiet
+launch_runs pll0_synth_1 -jobs 6
+wait_on_run pll0_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.srcs/sources_1/ip/pll0/pll0.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci]
+catch { config_ip_cache -export [get_ips -all wfm_output_fifo] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci] -no_script -sync -force -quiet
+launch_runs wfm_output_fifo_synth_1 -jobs 6
+wait_on_run wfm_output_fifo_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm_output_fifo/wfm_output_fifo.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target all [get_files  C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216.xci]
+catch { config_ip_cache -export [get_ips -all xcvr_fmc216] }
+export_ip_user_files -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216.xci] -no_script -sync -force -quiet
+launch_runs xcvr_fmc216_synth_1 -jobs 6
+wait_on_run xcvr_fmc216_synth_1
+export_simulation -of_objects [get_files C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_fmc216/xcvr_fmc216.xci] -directory C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/sim_scripts -ip_user_files_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files -ipstatic_source_dir C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/modelsim} {questa=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/questa} {riviera=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/riviera} {activehdl=C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1
+launch_simulation
+launch_simulation -mode post-synthesis -type functional
+source testbench.tcl
+launch_simulation
+close_sim
+set_property source_mgmt_mode DisplayOnly [current_project]
+set_property source_mgmt_mode None [current_project]
+set_property source_mgmt_mode DisplayOnly [current_project]
+reorder_files -after C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/wfm.vhd C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/fmc216.vhd
+launch_simulation
+reorder_files -after C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/xcvr_wrapper.vhd C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/fmc216.vhd
+launch_simulation
+reorder_files -before C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/fmc216.vhd C:/4dsp_test/527_vc707_fmc216/output/vc707_fmc216_vivado/Src/sip_fmc216_8lane/sip_freq_cnt16.vhd
+launch_simulation
+reorder_files -before C:/4dsp_test/527_vc707_fmc216/simulate/vhdl/xcvr_wrapper_emu.vhd C:/4dsp_test/527_vc707_fmc216/simulate/vhdl/div_clock.vhd
+launch_simulation
+reorder_files -before C:/4dsp_test/527_vc707_fmc216/simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/sip_vc707_mac_engine_sgmii_emu.vhd C:/4dsp_test/527_vc707_fmc216/simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/std_logic_textio.vhd
+reorder_files -before C:/4dsp_test/527_vc707_fmc216/simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/std_logic_textio.vhd C:/4dsp_test/527_vc707_fmc216/simulate/vhdl/sip_vc707_mac_engine_sgmii_emu/txt_util.vhd
+launch_simulation
+source testbench.tcl
+close_sim
+launch_simulation
+source testbench.tcl
+run 10 us
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+write_schematic -format pdf -orientation portrait C:/4dsp_test/527_vc707_fmc216_2021.2/output/vc707_fmc216_vivado/vivado/vc707_fmc216_vivado.runs/dac3283_wfm_dpram_synth_1/schematic.pdf
+close_sim

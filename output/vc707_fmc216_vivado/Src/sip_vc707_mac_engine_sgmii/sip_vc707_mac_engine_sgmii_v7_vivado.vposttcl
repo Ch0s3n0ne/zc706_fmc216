@@ -1,0 +1,27 @@
+# display the current path
+set path [info script]
+puts "Script is invoked from the path: $path "
+
+#import IP
+import_files  ./Src/sip_vc707_mac_engine_sgmii/afifo.xci
+import_files  ./Src/sip_vc707_mac_engine_sgmii/fifo_64_to_8.xci
+import_files  ./Src/sip_vc707_mac_engine_sgmii/pll0.xci
+import_files  ./Src/sip_vc707_mac_engine_sgmii/gig_ethernet_pcs_pma_1.xci
+
+upgrade_ip [get_ips afifo] -quiet
+upgrade_ip [get_ips fifo_64_to_8] -quiet
+upgrade_ip [get_ips pll0] -quiet
+upgrade_ip [get_ips gig_ethernet_pcs_pma_1] -quiet
+
+set_property target_language VHDL [current_project]
+set_property target_constrs_file ./Src/$projName.xdc [current_fileset -constrset]
+
+# GENERATE OUTPUT PRODUCTS
+# A reset_run <product_name> and launch_run <product_name> must be executed
+generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/afifo/afifo.xci]
+generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/fifo_64_to_8/fifo_64_to_8.xci]
+generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/gig_ethernet_pcs_pma_1/gig_ethernet_pcs_pma_1.xci]
+generate_target all [get_files  ./vivado/$projName.srcs/sources_1/ip/pll0/pll0.xci]
+
+
+

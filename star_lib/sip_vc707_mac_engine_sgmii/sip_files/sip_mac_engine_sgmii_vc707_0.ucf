@@ -1,0 +1,48 @@
+#-------------------------------------------------------------------------------
+## MAC Engine
+#-------------------------------------------------------------------------------
+# Master reset input
+NET "CPU_RESET_0"       LOC = "AV40" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+# Master clock input
+NET "SYSCLK_P_0"        LOC = "E19" |IOSTANDARD="LVDS";
+NET "SYSCLK_N_0"        LOC = "E18" |IOSTANDARD="LVDS";
+# Ethernet control interface
+NET "PHY_RESET_L_0"     LOC = "AJ33" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "PHY_MDC_0"         LOC = "AH31" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "PHY_MDIO_0"        LOC = "AK33" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+# SGMII interface to gigabit phy
+NET "SGMII_refclk_p_0" LOC = "AH8";
+NET "SGMII_refclk_n_0" LOC = "AH7";
+NET "SGMII_TX_P_0"	LOC = "AN2" |IOSTANDARD="LVDS";
+NET "SGMII_TX_N_0"	LOC = "AN1" |IOSTANDARD="LVDS"; #|DIFF_TERM=TRUE;
+NET "SGMII_RX_P_0"	LOC = "AM8" |IOSTANDARD="LVDS"; #|DIFF_TERM=TRUE;
+NET "SGMII_RX_N_0"	LOC = "AM7" |IOSTANDARD="LVDS"; #|DIFF_TERM=TRUE;
+
+NET "GPIO_LED_0<0>"      LOC = "AM39" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "GPIO_LED_0<1>"      LOC = "AN39" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "GPIO_LED_0<2>"      LOC = "AR37" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+NET "GPIO_LED_0<3>"      LOC = "AT37" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<4>"      LOC = "AR35" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<5>"      LOC = "AP41" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<6>"      LOC = "AP42" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+#NET "GPIO_LED_0<7>"      LOC = "AU39" |SLEW=SLOW |IOSTANDARD=LVCMOS18;
+
+NET "SYSCLK_P_0" TNM_NET = SYSCLK_P_0;
+TIMESPEC TS_SYSCLK_P_0 = PERIOD "SYSCLK_P_0" 200 MHz HIGH 50%;
+NET "SYSCLK_N_0" TNM_NET = SYSCLK_N_0;
+TIMESPEC TS_SYSCLK_N_0 = PERIOD "SYSCLK_N_0" 200 MHz HIGH 50%;
+
+NET "*/mac_engine_inst/i_rst_gen/reset2_o" TNM_NET = reset2_o;
+NET "*/mac_engine_inst/sw_rst" TNM_NET = sw_rst;
+NET "*/mac_engine_inst/reset2_o_int" TNM_NET = reset2_o_int;
+NET "*/mac_engine_inst/sw_rst_int" TNM_NET = sw_rst_int;
+
+
+TIMESPEC TS_IGNORE1 = FROM "reset2_o" TO  "reset2_o_int" TIG;
+TIMESPEC TS_IGNORE2 = FROM "sw_rst" TO "sw_rst_int" TIG;
+
+NET "*/clk125" TNM_NET=TNM_clk125;
+NET "*/clk200" TNM_NET=TNM_clk200;
+
+TIMESPEC TS_IGNORE3 = FROM "TNM_clk125" TO "TNM_clk200" TIG;
+TIMESPEC TS_IGNORE4 = FROM "TNM_clk200" TO "TNM_clk125" TIG;

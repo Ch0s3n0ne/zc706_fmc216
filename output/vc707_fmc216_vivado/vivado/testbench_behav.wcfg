@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cid_package" />
+            <top_module name="glbl" />
+            <top_module name="std_logic_textio" />
+            <top_module name="testbench" />
+            <top_module name="txt_util" />
+            <top_module name="types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="95.982088 us"></ZoomEndTime>
+      <Cursor1Time time="251.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="201"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="101" />
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_vc707_mac_engine_sgmii_0/cmd_out_cmdout" type="array">
+      <obj_property name="ElementShortName">cmd_out_cmdout[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_out_cmdout[63:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_vc707_mac_engine_sgmii_0/cmd_out_cmdout_val" type="logic">
+      <obj_property name="ElementShortName">cmd_out_cmdout_val</obj_property>
+      <obj_property name="ObjectShortName">cmd_out_cmdout_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/i_router_s1d5/i_router_s1d16_regs/i_router_s1d16_stellar_cmd/cmd_wr" type="array">
+      <obj_property name="ElementShortName">cmd_wr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_wr[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_fmc216_8lane_0/fmc216_0/sip_freq_cnt16_inst/cmd_rst" type="logic">
+      <obj_property name="ElementShortName">cmd_rst</obj_property>
+      <obj_property name="ObjectShortName">cmd_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cid_ex_0/i_cid/i_cid_regs/i_cid_stellar_cmd/register_wr" type="logic">
+      <obj_property name="ElementShortName">register_wr</obj_property>
+      <obj_property name="ObjectShortName">register_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_i2c_master_0/i2c_master_inst/i2c_master_stellar_cmd_inst/register_wr" type="logic">
+      <obj_property name="ElementShortName">register_wr</obj_property>
+      <obj_property name="ObjectShortName">register_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_fmc216_8lane_0/fmc216_0/fmc216_ctrl_inst/fmc216_stellar_cmd_inst/register_wr" type="logic">
+      <obj_property name="ElementShortName">register_wr</obj_property>
+      <obj_property name="ObjectShortName">register_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/i_router_s1d5/i_router_s1d16_regs/i_router_s1d16_stellar_cmd/register_wr" type="logic">
+      <obj_property name="ElementShortName">register_wr</obj_property>
+      <obj_property name="ObjectShortName">register_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_vc707_mac_engine_sgmii_0/out_data_out_data" type="array">
+      <obj_property name="ElementShortName">out_data_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out_data_out_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_vc707_mac_engine_sgmii_0/out_data_out_dval" type="logic">
+      <obj_property name="ElementShortName">out_data_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out_data_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_fmc216_8lane_0/cmd_in_cmdin" type="array">
+      <obj_property name="ElementShortName">cmd_in_cmdin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_in_cmdin[63:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_fmc216_8lane_0/cmd_in_cmdin_val" type="logic">
+      <obj_property name="ElementShortName">cmd_in_cmdin_val</obj_property>
+      <obj_property name="ObjectShortName">cmd_in_cmdin_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd0_in_cmdin" type="array">
+      <obj_property name="ElementShortName">cmd0_in_cmdin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd0_in_cmdin[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd0_in_cmdin_val" type="logic">
+      <obj_property name="ElementShortName">cmd0_in_cmdin_val</obj_property>
+      <obj_property name="ObjectShortName">cmd0_in_cmdin_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd1_in_cmdin" type="array">
+      <obj_property name="ElementShortName">cmd1_in_cmdin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd1_in_cmdin[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd1_in_cmdin_val" type="logic">
+      <obj_property name="ElementShortName">cmd1_in_cmdin_val</obj_property>
+      <obj_property name="ObjectShortName">cmd1_in_cmdin_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd2_in_cmdin" type="array">
+      <obj_property name="ElementShortName">cmd2_in_cmdin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd2_in_cmdin[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd2_in_cmdin_val" type="logic">
+      <obj_property name="ElementShortName">cmd2_in_cmdin_val</obj_property>
+      <obj_property name="ObjectShortName">cmd2_in_cmdin_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd3_in_cmdin" type="array">
+      <obj_property name="ElementShortName">cmd3_in_cmdin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd3_in_cmdin[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_cmd12_mux_0/cmd3_in_cmdin_val" type="logic">
+      <obj_property name="ElementShortName">cmd3_in_cmdin_val</obj_property>
+      <obj_property name="ObjectShortName">cmd3_in_cmdin_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CLK_25_MHZ" type="other">
+      <obj_property name="ElementShortName">CLK_25_MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_25_MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_vc707_mac_engine_sgmii_0/cmd_in_cmdin" type="array">
+      <obj_property name="ElementShortName">cmd_in_cmdin[63:0]</obj_property>
+      <obj_property name="ObjectShortName">cmd_in_cmdin[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/in0_in_data" type="array">
+      <obj_property name="ElementShortName">in0_in_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in0_in_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/in0_in_dval" type="logic">
+      <obj_property name="ElementShortName">in0_in_dval</obj_property>
+      <obj_property name="ObjectShortName">in0_in_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/in0_in_stop" type="logic">
+      <obj_property name="ElementShortName">in0_in_stop</obj_property>
+      <obj_property name="ObjectShortName">in0_in_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out0_out_data" type="array">
+      <obj_property name="ElementShortName">out0_out_data[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out0_out_data[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out0_out_dval" type="logic">
+      <obj_property name="ElementShortName">out0_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out0_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out0_out_stop" type="logic">
+      <obj_property name="ElementShortName">out0_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out0_out_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out1_out_dval" type="logic">
+      <obj_property name="ElementShortName">out1_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out1_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out2_out_dval" type="logic">
+      <obj_property name="ElementShortName">out2_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out2_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out3_out_dval" type="logic">
+      <obj_property name="ElementShortName">out3_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out3_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out3_out_stop" type="logic">
+      <obj_property name="ElementShortName">out3_out_stop</obj_property>
+      <obj_property name="ObjectShortName">out3_out_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out4_out_dval" type="logic">
+      <obj_property name="ElementShortName">out4_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out4_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out5_out_dval" type="logic">
+      <obj_property name="ElementShortName">out5_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out5_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out6_out_dval" type="logic">
+      <obj_property name="ElementShortName">out6_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out6_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out7_out_dval" type="logic">
+      <obj_property name="ElementShortName">out7_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out7_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out8_out_dval" type="logic">
+      <obj_property name="ElementShortName">out8_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out8_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out9_out_dval" type="logic">
+      <obj_property name="ElementShortName">out9_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out9_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out10_out_dval" type="logic">
+      <obj_property name="ElementShortName">out10_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out10_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out11_out_dval" type="logic">
+      <obj_property name="ElementShortName">out11_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out11_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out12_out_dval" type="logic">
+      <obj_property name="ElementShortName">out12_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out12_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out13_out_dval" type="logic">
+      <obj_property name="ElementShortName">out13_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out13_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out14_out_dval" type="logic">
+      <obj_property name="ElementShortName">out14_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out14_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/vc707_fmc216_inst/sip_router_s1d16_0/out15_out_dval" type="logic">
+      <obj_property name="ElementShortName">out15_out_dval</obj_property>
+      <obj_property name="ObjectShortName">out15_out_dval</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/sysref_p" type="logic">
+      <obj_property name="ElementShortName">sysref_p</obj_property>
+      <obj_property name="ObjectShortName">sysref_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/sysref_n" type="logic">
+      <obj_property name="ElementShortName">sysref_n</obj_property>
+      <obj_property name="ObjectShortName">sysref_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/sysclk_p" type="logic">
+      <obj_property name="ElementShortName">sysclk_p</obj_property>
+      <obj_property name="ObjectShortName">sysclk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/sysclk_n" type="logic">
+      <obj_property name="ElementShortName">sysclk_n</obj_property>
+      <obj_property name="ObjectShortName">sysclk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/refclk_p" type="logic">
+      <obj_property name="ElementShortName">refclk_p</obj_property>
+      <obj_property name="ObjectShortName">refclk_p</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/refclk_n" type="logic">
+      <obj_property name="ElementShortName">refclk_n</obj_property>
+      <obj_property name="ObjectShortName">refclk_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_alarm_0" type="logic">
+      <obj_property name="ElementShortName">dac_alarm_0</obj_property>
+      <obj_property name="ObjectShortName">dac_alarm_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_sleep_0" type="logic">
+      <obj_property name="ElementShortName">dac_sleep_0</obj_property>
+      <obj_property name="ObjectShortName">dac_sleep_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_syncb_n_0" type="array">
+      <obj_property name="ElementShortName">dac_syncb_n_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_syncb_n_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_syncb_p_0" type="array">
+      <obj_property name="ElementShortName">dac_syncb_p_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_syncb_p_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_tx_en_0" type="logic">
+      <obj_property name="ElementShortName">dac_tx_en_0</obj_property>
+      <obj_property name="ObjectShortName">dac_tx_en_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dds_pwrdown_0" type="logic">
+      <obj_property name="ElementShortName">dds_pwrdown_0</obj_property>
+      <obj_property name="ObjectShortName">dds_pwrdown_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ext_trigger_n_0" type="logic">
+      <obj_property name="ElementShortName">ext_trigger_n_0</obj_property>
+      <obj_property name="ObjectShortName">ext_trigger_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/ext_trigger_p_0" type="logic">
+      <obj_property name="ElementShortName">ext_trigger_p_0</obj_property>
+      <obj_property name="ObjectShortName">ext_trigger_p_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/lmk_sync_0" type="logic">
+      <obj_property name="ElementShortName">lmk_sync_0</obj_property>
+      <obj_property name="ObjectShortName">lmk_sync_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/lmkclk_n_0" type="logic">
+      <obj_property name="ElementShortName">lmkclk_n_0</obj_property>
+      <obj_property name="ObjectShortName">lmkclk_n_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/lmkclk_p_0" type="logic">
+      <obj_property name="ElementShortName">lmkclk_p_0</obj_property>
+      <obj_property name="ObjectShortName">lmkclk_p_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/osc100_en_0" type="logic">
+      <obj_property name="ElementShortName">osc100_en_0</obj_property>
+      <obj_property name="ObjectShortName">osc100_en_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/osc491_en_0" type="logic">
+      <obj_property name="ElementShortName">osc491_en_0</obj_property>
+      <obj_property name="ObjectShortName">osc491_en_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/pg_m2c_0" type="logic">
+      <obj_property name="ElementShortName">pg_m2c_0</obj_property>
+      <obj_property name="ObjectShortName">pg_m2c_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/prsnt_m2c_l_0" type="logic">
+      <obj_property name="ElementShortName">prsnt_m2c_l_0</obj_property>
+      <obj_property name="ObjectShortName">prsnt_m2c_l_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/refclk_n_0" type="array">
+      <obj_property name="ElementShortName">refclk_n_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">refclk_n_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/refclk_p_0" type="array">
+      <obj_property name="ElementShortName">refclk_p_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">refclk_p_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rf_ctrl1_0" type="logic">
+      <obj_property name="ElementShortName">rf_ctrl1_0</obj_property>
+      <obj_property name="ObjectShortName">rf_ctrl1_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rf_ctrl2_0" type="logic">
+      <obj_property name="ElementShortName">rf_ctrl2_0</obj_property>
+      <obj_property name="ObjectShortName">rf_ctrl2_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serdin_n_0" type="array">
+      <obj_property name="ElementShortName">serdin_n_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">serdin_n_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serdin_p_0" type="array">
+      <obj_property name="ElementShortName">serdin_p_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">serdin_p_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serdout_n_0" type="array">
+      <obj_property name="ElementShortName">serdout_n_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">serdout_n_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/serdout_p_0" type="array">
+      <obj_property name="ElementShortName">serdout_p_0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">serdout_p_0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/spi_csn_phy_0" type="array">
+      <obj_property name="ElementShortName">spi_csn_phy_0[5:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_csn_phy_0[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/spi_reset_phy_0" type="array">
+      <obj_property name="ElementShortName">spi_reset_phy_0[3:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_reset_phy_0[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/spi_sclk_phy_0" type="logic">
+      <obj_property name="ElementShortName">spi_sclk_phy_0</obj_property>
+      <obj_property name="ObjectShortName">spi_sclk_phy_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/spi_sdi_phy_0" type="array">
+      <obj_property name="ElementShortName">spi_sdi_phy_0[2:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_sdi_phy_0[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/spi_sdo_phy_0" type="logic">
+      <obj_property name="ElementShortName">spi_sdo_phy_0</obj_property>
+      <obj_property name="ObjectShortName">spi_sdo_phy_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/syncb_ab_0" type="logic">
+      <obj_property name="ElementShortName">syncb_ab_0</obj_property>
+      <obj_property name="ObjectShortName">syncb_ab_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/syncb_cd_0" type="logic">
+      <obj_property name="ElementShortName">syncb_cd_0</obj_property>
+      <obj_property name="ObjectShortName">syncb_cd_0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/syncb_n_0" type="array">
+      <obj_property name="ElementShortName">syncb_n_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">syncb_n_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/syncb_p_0" type="array">
+      <obj_property name="ElementShortName">syncb_p_0[1:0]</obj_property>
+      <obj_property name="ObjectShortName">syncb_p_0[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/clk_cmd" type="logic">
+      <obj_property name="ElementShortName">clk_cmd</obj_property>
+      <obj_property name="ObjectShortName">clk_cmd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/out_cmd" type="array">
+      <obj_property name="ElementShortName">out_cmd[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out_cmd[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/out_cmd_val" type="logic">
+      <obj_property name="ElementShortName">out_cmd_val</obj_property>
+      <obj_property name="ObjectShortName">out_cmd_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/in_cmd_val" type="logic">
+      <obj_property name="ElementShortName">in_cmd_val</obj_property>
+      <obj_property name="ObjectShortName">in_cmd_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/in_cmd" type="array">
+      <obj_property name="ElementShortName">in_cmd[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in_cmd[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_out" type="array">
+      <obj_property name="ElementShortName">dac_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">dac_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_val" type="logic">
+      <obj_property name="ElementShortName">dac_val</obj_property>
+      <obj_property name="ObjectShortName">dac_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dac_stop" type="logic">
+      <obj_property name="ElementShortName">dac_stop</obj_property>
+      <obj_property name="ObjectShortName">dac_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/adc_out" type="array">
+      <obj_property name="ElementShortName">adc_out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_out[63:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/adc_val" type="logic">
+      <obj_property name="ElementShortName">adc_val</obj_property>
+      <obj_property name="ObjectShortName">adc_val</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/adc_stop" type="logic">
+      <obj_property name="ElementShortName">adc_stop</obj_property>
+      <obj_property name="ObjectShortName">adc_stop</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/rst_rstin" type="array">
+      <obj_property name="ElementShortName">rst_rstin[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rst_rstin[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CLK_200_MHZ" type="other">
+      <obj_property name="ElementShortName">CLK_200_MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_200_MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CLK_100_MHZ" type="other">
+      <obj_property name="ElementShortName">CLK_100_MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_100_MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CLK_300_MHZ" type="other">
+      <obj_property name="ElementShortName">CLK_300_MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_300_MHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/CLK_167_MHZ" type="other">
+      <obj_property name="ElementShortName">CLK_167_MHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_167_MHZ</obj_property>
+   </wvobject>
+</wave_config>
